@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<servlet-name>FirstJSP</servlet-name>
+<jsp-file>/WEB-INF/date.jsp</jsp-file>
+<init-param>
+</init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>FirstJSP</servlet-name>
+<url-pattern>/test</url-pattern>
+</servlet-mapping>
+</web-app>

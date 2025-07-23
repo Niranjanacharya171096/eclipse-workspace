@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+E:\Software Files\eclipse-workspace\05_servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4072917309.index
+\chapter02.05_welcomefile\src
+E:\Software Files\eclipse-workspace\05_servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\696411732.index
+\chapter02.08_ErrorPage\src
+E:\Software Files\eclipse-workspace\05_servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1995227908.index
+\chapter02.01_configuringJSP\src
+E:\Software Files\eclipse-workspace\05_servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1317174487.index
+\chapter02.01_configuringJSP\src
+E:\Software Files\eclipse-workspace\05_servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4112023060.index
+\chapter02.07_ErrorPage\src
