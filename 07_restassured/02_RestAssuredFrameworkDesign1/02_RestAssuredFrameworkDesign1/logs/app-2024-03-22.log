@@ -1,0 +1,20 @@
+[DEBUG] 2024-03-22 22:34:57.057 [main] UserTests - debugging...........
+[INFO ] 2024-03-22 22:34:57.090 [main] UserTests - *********Creating User***********
+[INFO ] 2024-03-22 22:35:02.567 [main] UserTests - *********Created User***********
+[INFO ] 2024-03-22 22:35:02.585 [main] UserTests - *********Reading User***********
+[INFO ] 2024-03-22 22:35:04.326 [main] UserTests - *********Displayed User***********
+[INFO ] 2024-03-22 22:35:04.337 [main] UserTests - *********Updating User***********
+[INFO ] 2024-03-22 22:35:06.138 [main] UserTests - *********Updated User***********
+[INFO ] 2024-03-22 22:35:07.802 [main] UserTests - *********Checked Updated User***********
+[INFO ] 2024-03-22 22:35:07.816 [main] UserTests - *********Deleting User***********
+[INFO ] 2024-03-22 22:35:09.536 [main] UserTests - *********Deleted User***********
+[DEBUG] 2024-03-22 22:58:22.821 [main] UserTests2 - debugging...........
+[INFO ] 2024-03-22 22:58:22.855 [main] UserTests2 - *********Creating User***********
+[INFO ] 2024-03-22 22:58:28.788 [main] UserTests2 - *********Created User***********
+[INFO ] 2024-03-22 22:58:28.809 [main] UserTests2 - *********Reading User***********
+[INFO ] 2024-03-22 22:58:30.622 [main] UserTests2 - *********Displayed User***********
+[INFO ] 2024-03-22 22:58:30.629 [main] UserTests2 - *********Updating User***********
+[INFO ] 2024-03-22 22:58:32.790 [main] UserTests2 - *********Updated User***********
+[INFO ] 2024-03-22 22:58:35.650 [main] UserTests2 - *********Checked Updated User***********
+[INFO ] 2024-03-22 22:58:35.658 [main] UserTests2 - *********Deleting User***********
+[INFO ] 2024-03-22 22:58:37.982 [main] UserTests2 - *********Deleted User***********

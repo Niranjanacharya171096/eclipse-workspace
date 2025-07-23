@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;02_RestAssuredFrameworkDesign&apos; to &apos;02_RestAssuredFrameworkDesign1&apos;" description="Rename resource &apos;02_RestAssuredFrameworkDesign&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/02_RestAssuredFrameworkDesign" name="02_RestAssuredFrameworkDesign1" stamp="1711514183027" updateReferences="true"/>
+</session>
