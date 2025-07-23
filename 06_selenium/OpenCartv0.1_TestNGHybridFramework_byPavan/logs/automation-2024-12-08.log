@@ -1,0 +1,60 @@
+13:29:15.582 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+13:29:22.975 [main] INFO  factory.DriverFactory - =====EDGE=====
+13:29:34.743 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:29:54.309 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:30:07.210 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:30:07.220 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:30:21.376 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:30:21.390 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:30:35.178 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:39:13.175 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+13:39:20.501 [main] INFO  factory.DriverFactory - =====EDGE=====
+13:39:30.733 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:39:37.672 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:39:37.701 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:39:49.753 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:39:49.764 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:40:01.864 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+13:40:01.870 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+13:40:14.095 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:25:53.693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+16:26:04.461 [main] INFO  factory.DriverFactory - =====EDGE=====
+16:27:58.600 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+16:28:04.065 [main] INFO  factory.DriverFactory - =====EDGE=====
+16:28:13.335 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:28:22.371 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:28:22.391 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:28:35.145 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:28:35.155 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:28:40.420 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:28:54.967 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:31:37.011 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+16:31:44.074 [main] INFO  factory.DriverFactory - =====EDGE=====
+16:31:55.404 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:32:00.463 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:32:00.487 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:32:13.236 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:32:13.249 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:32:25.577 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+16:32:25.588 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+16:32:37.435 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+17:00:07.854 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+17:00:13.947 [main] INFO  factory.DriverFactory - =====EDGE=====
+17:00:20.927 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+17:00:25.644 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+17:00:25.663 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+17:00:38.216 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+17:00:38.227 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+17:00:50.867 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******

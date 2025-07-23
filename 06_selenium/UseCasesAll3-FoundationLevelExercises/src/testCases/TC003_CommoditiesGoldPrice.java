@@ -1,0 +1,61 @@
+package testCases;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import pageClasses.CommoditiesPage;
+import utilities.DriverSetup;
+import utils.ExcelUtils;
+import utils.ScreenshotUtils;
+
+public class TC003_CommoditiesGoldPrice {
+  public static void main(String[] args) throws Exception {
+    WebDriver driver = DriverSetup.initializeDriver("TC003");
+
+    CommoditiesPage commoditiesPage = new CommoditiesPage(driver);
+    commoditiesPage.clickGold();
+    String xlpath = "./Excel/MCXGoldPriceDetails.xlsx";
+    String sheetName = "Sheet1";
+
+    List<String[]> results = new ArrayList<>();
+    results.add(new String[] { "Period", "Price", "Change", "% Change" });
+    Thread.sleep(5000);
+
+    String parentWin = driver.getWindowHandle();
+    Set<String> windows = driver.getWindowHandles();
+    System.out.println(windows);
+    for (String window : windows) {
+      if (!window.equals(parentWin)) {
+        driver.switchTo().window(window);
+        break;
+      }
+    }
+    List<WebElement> periods = commoditiesPage.getPeriodTabs();
+    for (WebElement period : periods) {
+      String periodName = period.getText();
+      System.out.println(periodName);
+      period.click();
+      Thread.sleep(2000);
+      //				driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+      //				WebDriverWaitUtils.waitForPageToLoad(driver, 10);
+      String price = commoditiesPage.getPrice();
+      String change = commoditiesPage.getChange();
+      String percent = commoditiesPage.getChangePercent();
+      System.out.println(price + " " + change + " " + percent);
+      Thread.sleep(10);
+
+      results.add(new String[] { periodName, price, change, percent });
+      ScreenshotUtils.scrollAndCapture(driver, "./Screenshots", periodName);
+      //				driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
+      Thread.sleep(10);
+    }
+    //
+    ExcelUtils.writeData(xlpath, sheetName, results);
+
+    driver.quit();
+  }
+}

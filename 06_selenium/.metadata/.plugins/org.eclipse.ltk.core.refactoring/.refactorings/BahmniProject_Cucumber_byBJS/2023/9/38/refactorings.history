@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;apphooks&apos; to &apos;guru99BankProject_Cucumber2/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;BahmniProject&apos;&#x0D;&#x0A;- Destination element: &apos;guru99BankProject_Cucumber2/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;BahmniProject/src/test/java/apphooks&apos;" description="Copy package" destination="=guru99BankProject_Cucumber2/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;apphooks" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1695290004577" version="1.0"/>
+</session>

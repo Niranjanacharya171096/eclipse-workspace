@@ -1,0 +1,7 @@
+<suite name="ParallelSuite" parallel="tests" data-provider-thread-count="2">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.selenium.testng.NoXMLParallelTest"/>
+        </classes>
+    </test>
+</suite>

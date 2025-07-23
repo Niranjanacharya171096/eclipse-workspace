@@ -1,0 +1,37 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+
+import pageClasses.LoginPage;
+import utilities.DriverSetup;
+
+public class TC001_LoginValid {
+  public static void main(String[] args) throws Exception {
+    WebDriver driver = DriverSetup.initializeDriver("TC001");
+
+    LoginPage loginPage = new LoginPage(driver);
+    loginPage.moveToLogin();
+    loginPage.clickOnLogin();
+    loginPage.switchToAccFrame();
+    Thread.sleep(2000);
+
+    loginPage.clickLoginWithPassword();
+
+    //		String xlpath = "./Excel/LoginDataProvider.xlsx";
+    //		String sheetName = "Sheet1";
+    //
+    //		Map<String, String> loginData = ExcelUtils.readData(xlpath, sheetName);
+
+    //		for (Map.Entry<String, String> entry : loginData.entrySet()) {
+    loginPage.enterEmailID("niranjanacharya09@gmail.com");// entry.getKey());
+    loginPage.enterPassword("Password@1"); // "entry.getValue());
+    loginPage.clickLogin();
+    Thread.sleep(10000);
+    loginPage.closeMobileVerification();
+
+    System.out.println("Login test passed with valid credentials");
+    Thread.sleep(2000);
+    //		driver.quit();
+    //		}
+  }
+}

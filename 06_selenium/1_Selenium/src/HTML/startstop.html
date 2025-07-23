@@ -1,0 +1,41 @@
+<!--StartStop.html-->
+<html lang="en">
+<head>
+<title>Start/Stop Toggle Button with Counter</title>
+</head>
+<body>
+<button id="toggleButton">Start</button>
+<button id="resetButton">Reset</button>
+<p id="clickCount">0</p>
+<script>
+    const toggleButton = document.getElementById('toggleButton');
+    const resetButton = document.getElementById('resetButton');
+    const clickCountDisplay = document.getElementById('clickCount');
+    let isRunning = false;
+    let clickCount = 0;
+    let interval;
+
+    toggleButton.addEventListener('click', function() {
+        if (!isRunning) {
+            console.log('Start button clicked!');
+            toggleButton.textContent = 'Stop';
+            interval = setInterval(() => {
+                clickCount++;
+                clickCountDisplay.textContent = clickCount;
+            }, 1000); // Increment the count every second
+        } else {
+            console.log('Stop button clicked!');
+            toggleButton.textContent = 'Start';
+            clearInterval(interval);
+        }
+        isRunning = !isRunning;
+    });
+
+    resetButton.addEventListener('click', function() {
+        console.log('Reset button clicked!');
+        clickCount = 0;
+        clickCountDisplay.textContent = clickCount;
+    });
+</script>
+</body>
+</html>

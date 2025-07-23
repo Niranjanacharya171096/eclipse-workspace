@@ -1,0 +1,21 @@
+1691038316688	Copy compilation unit
+1691039403416	Delete element
+1691040360502	Rename type 'DependsOnMethods'
+1691040372505	Rename type 'Priority'
+1691047036509	Delete element
+1691062409140	Move compilation unit
+1691062581930	Rename compilation unit 'SoftAssert.java'
+1691234753682	Rename type 'P19_Quit_method'
+1691234822223	Rename type 'P04_Gmail_Operations'
+1691234908217	Rename type 'P03_BrowserOperations'
+1691234981755	Rename type 'P08_Locators_Basic'
+1691235031501	Rename type 'P09_Locators_Advance_cssSelector'
+1691235249964	Rename type 'P10_Locators_Advance_xPath'
+1691235288033	Rename type 'P11_Locators_Advance_xPath2'
+1691235421512	Rename type 'P12_FindAllLinks'
+1691235464132	Rename type 'P13_Synchronization_ThreadSleep'
+1691235506190	Rename type 'P14_Synchronization_Implicitwait'
+1691235551507	Rename type 'P15_Synchronization_Explicitwait'
+1691235616514	Rename type 'P16_Actions_MouseEvents'
+1691235641845	Rename type 'P17_Actions_KeyboardEvents'
+1691235682736	Rename type 'P18_DropDown'

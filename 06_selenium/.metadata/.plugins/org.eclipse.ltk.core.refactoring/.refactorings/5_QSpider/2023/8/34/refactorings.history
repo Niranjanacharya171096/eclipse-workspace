@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;failedScreenshot&apos; to &apos;com.qspider.failedScreenshot&apos;&#x0D;&#x0A;- Original project: &apos;5_QSpider&apos;&#x0D;&#x0A;- Original element: &apos;5_QSpider/src/failedScreenshot&apos;&#x0D;&#x0A;- Renamed element: &apos;5_QSpider/src/com.qspider.failedScreenshot&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;failedScreenshot&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;failedScreenshot" name="com.qspider.failedScreenshot" qualified="false" references="true" stamp="1693032329385" textual="true" version="1.0"/>
+</session>

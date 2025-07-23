@@ -1,0 +1,33 @@
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class P15_FindAllLinks {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new ChromeDriver();
+
+    driver.manage().window().maximize();
+
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    
+    driver.get("https://in.bookmyshow.com/explore/home/");
+    Thread.sleep(5000);
+
+    List<WebElement> links = driver.findElements(By.tagName("a")); //fetches all links
+    
+    int size = links.size();
+    System.out.println(size);
+    
+    for(WebElement link: links ) {
+      String linkname = link.getText();
+      System.out.println(linkname);
+    }
+    
+    Thread.sleep(5000);
+    driver.quit(); 
+  }
+}

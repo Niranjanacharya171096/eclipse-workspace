@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;P44_TestNG_Suite.xml&apos; to &apos;P44_TestNG_Suite.xml&apos;&#x0D;&#x0A;- Original project: &apos;1_Selenium&apos;&#x0D;&#x0A;- Destination element: &apos;P44_TestNG_Suite.xml&apos;&#x0D;&#x0A;- Original element: &apos;P44_TestNG_Suite.xml&apos;" description="Copy file" element1="P44_TestNG_Suite.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1752578507937" target="/1_Selenium/P44_TestNG_Suite.xml" units="0" version="1.0"/>
+</session>

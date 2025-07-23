@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class P04_BrowserLauch {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the Browser name:");
+		Scanner sc = new Scanner(System.in);
+		String browser = sc.next();
+		
+		if (browser.equalsIgnoreCase("Chrome")) {
+			ChromeDriver cdriver = new 	ChromeDriver();
+			test(cdriver);
+		} else {
+			EdgeDriver edriver=new EdgeDriver();
+			test(edriver);
+		}
+	}
+	
+	private static void test(EdgeDriver edriver) {
+		edriver.get("https://www.gmail.com");
+		System.out.println(edriver.getTitle());
+		System.out.println(edriver.getCurrentUrl());		
+	}
+
+	public static void test(ChromeDriver cdriver) {
+		cdriver.get("https://www.gmail.com");
+		System.out.println(cdriver.getTitle());
+		System.out.println(cdriver.getCurrentUrl());
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <parameter name="state" value="Kararnatak" />
+        <parameter name="city" value="Bangalore" />
+        <parameter name="area" value="Basavanagudi" />
+        <classes>
+            <class name="com.qspider.java.Q24_TestNG_Parameter" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

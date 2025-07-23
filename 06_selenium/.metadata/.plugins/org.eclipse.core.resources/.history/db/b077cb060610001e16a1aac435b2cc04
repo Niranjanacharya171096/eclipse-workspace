@@ -1,0 +1,20 @@
+import org.openqa.selenium.By; 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class P07_Locators_Advance_xPath {
+
+	public static void main(String[] args) throws InterruptedException {
+		ChromeDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("E:\\Programs\\textbox.html");
+		
+		WebElement p = driver.findElement(By.xpath("/html/body/div/input[1]"));
+		p.sendKeys("PPPP");
+		
+		Thread.sleep(10000);
+		driver.close();
+	}
+}

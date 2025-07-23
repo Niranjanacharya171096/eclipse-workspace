@@ -1,0 +1,38 @@
+package com.hyrtutorials.java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class H16_JSExecutor_ScrollOperations {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new ChromeDriver();
+    driver.manage().window().maximize();
+
+    String url = "https://www.hyrtutorials.com/";
+    driver.get(url);
+
+    JavascriptExecutor jse = (JavascriptExecutor) driver;
+    jse.executeScript("window.scrollTo(0,1000)");
+    Thread.sleep(3000);
+
+    jse.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+    Thread.sleep(3000);
+
+    WebElement element = driver.findElement(By.id("BlogArchive1"));
+    int x = element.getLocation().x;
+    int y = element.getLocation().y;
+    jse.executeScript("window.scrollTo(arguments[0],arguments[1])", x, y);
+    Thread.sleep(3000);
+
+    jse.executeScript("window.scrollBy(0,200)");
+    Thread.sleep(3000);
+
+    jse.executeScript("arguments[0].scrollIntoView()", element);
+
+    Thread.sleep(3000);
+    driver.quit();
+  }
+}

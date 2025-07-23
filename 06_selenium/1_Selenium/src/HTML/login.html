@@ -1,0 +1,45 @@
+<!--login.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; background-color: #f4f4f4;
+            text-align: center; margin: 100px;
+        }
+        .login-container {
+            max-width: 400px; margin: 0 auto; background-color: #fff; 
+            padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" disabled=true required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="checkbox" id="agree" onchange="enableButton()">
+            <label for="agree">I agree to the terms and conditions</label>
+            <br>
+            <button type="submit" id="loginButton" disabled=true>Login</button>
+        </form>
+    </div>
+
+    <script>
+        function enableButton() {
+            var checkbox = document.getElementById("agree");
+            var loginButton = document.getElementById("loginButton");
+
+            loginButton.disabled = !checkbox.checked;
+        }
+    </script>
+</body>
+</html>

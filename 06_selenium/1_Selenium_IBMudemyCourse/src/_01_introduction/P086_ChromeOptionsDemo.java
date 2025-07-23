@@ -1,0 +1,22 @@
+package _01_introduction;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class P086_ChromeOptionsDemo {
+
+  public static void main(String[] args) {
+    // http://chromedriver.storage.googleapis.com/index.html
+    String baseURL = "http://www.google.com";
+    WebDriver driver;
+    //    System.setProperty("webdriver.chrome.driver",
+    //        "/chromedriver-win64/chromedriver.exe");
+
+    ChromeOptions options = new ChromeOptions();
+    //    coptions.addExtensions(new File("C:\\Users\\NIRANJAN\\Downloads\\AdGuard-AdBlocker.crx"));
+    options.addArguments("window-size=100,100");
+    driver = new ChromeDriver(options);
+    driver.get(baseURL);
+  }
+}

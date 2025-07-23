@@ -1,0 +1,57 @@
+package com.hyrtutorials.java;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class H12_Frames {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new FirefoxDriver();
+
+    driver.manage().window().maximize();
+
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+
+    String url = "https://www.hyrtutorials.com/p/frames-practice.html";
+    driver.get(url);
+
+    driver.findElement(By.id("name")).sendKeys("Niranjan"); //main page
+    Thread.sleep(5000);
+
+    WebElement xpath = driver.findElement(By.xpath("//iframe[@id='frm1']")); //main page/ Frame1
+    driver.switchTo().frame(xpath);
+
+    WebElement dropdown=driver.findElement(By.id("course"));
+    Select s= new Select(dropdown);
+    s.selectByIndex(3);
+    Thread.sleep(3000);
+
+    driver.switchTo().parentFrame(); //main page
+
+    xpath = driver.findElement(By.xpath("//iframe[@id='frm3']")); //Main page/ Frame3
+    driver.switchTo().frame(xpath);
+    driver.findElement(By.id("name")).sendKeys("Sayeed"); //main page
+    Thread.sleep(5000);
+
+    xpath = driver.findElement(By.xpath("//iframe[@id='frm1']")); //Frame3/ Frame1
+    driver.switchTo().frame(xpath);
+
+    dropdown=driver.findElement(By.id("selectnav1"));
+    s= new Select(dropdown);
+    s.selectByIndex(2);
+    Thread.sleep(3000);
+
+    //    driver.switchTo().parentFrame(); //Frame3
+    //    driver.findElement(By.id("name")).sendKeys("Khan");
+
+    driver.switchTo().parentFrame(); //Main page
+    driver.findElement(By.id("name")).sendKeys("Acharya");
+
+    Thread.sleep(5000);
+    driver.quit();
+  }
+}

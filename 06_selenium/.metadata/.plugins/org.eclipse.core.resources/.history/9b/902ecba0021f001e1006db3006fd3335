@@ -1,0 +1,31 @@
+import java.time.Duration; 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class P18_Frames {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new ChromeDriver();
+
+    driver.manage().window().maximize();
+
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+    
+    String url ="https://www.hyrtutorials.com/p/frames-practice.html";
+    driver.get(url);
+    
+    driver.findElement(By.id("mname")).sendKeys("Acharya");
+    Thread.sleep(5000);
+    
+//    driver.switchTo().frame(0); // only 1 frame and index starts from 0
+//    driver.switchTo().frame("newname1");
+    WebElement xpath = driver.findElement(By.xpath("//iframe[@name='newname1']"));
+    driver.switchTo().frame(xpath);
+    
+    driver.findElement(By.id("fname")).sendKeys("Niranjan");
+    
+    Thread.sleep(5000);
+    driver.quit(); 
+  }
+}

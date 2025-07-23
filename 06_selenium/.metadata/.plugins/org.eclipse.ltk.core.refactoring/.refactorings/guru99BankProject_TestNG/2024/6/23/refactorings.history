@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoginPage.java&apos; to &apos;Selenium_POM_DataDrivenFramework_TestNG/src/main/java/com.qa.pages&apos;&#x0D;&#x0A;- Original project: &apos;guru99BankProject_TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;Selenium_POM_DataDrivenFramework_TestNG/src/main/java/com.qa.pages&apos;&#x0D;&#x0A;- Original element: &apos;com.guru99Bank.pages.LoginPage.java&apos;" description="Copy compilation unit" destination="=Selenium_POM_DataDrivenFramework_TestNG/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.qa.pages" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.guru99Bank.pages{LoginPage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1717683927937" units="1" version="1.0"/>
+</session>

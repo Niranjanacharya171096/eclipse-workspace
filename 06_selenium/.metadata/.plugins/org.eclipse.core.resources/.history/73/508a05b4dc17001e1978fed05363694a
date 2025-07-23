@@ -1,0 +1,39 @@
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class P16_BooleanOperations {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new ChromeDriver();
+
+    driver.manage().window().maximize();
+
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    
+    driver.get("https://www.shadi.com");
+    Thread.sleep(5000);
+
+    driver.findElement(By.linkText("Join Now")).click();
+
+    WebElement female = driver.findElement(By.xpath("(//label[text()='Female'])[1]"));
+    
+    if(female.isDisplayed())
+      System.out.println("Female is Displayed as Gender");
+    else
+      System.out.println("Female is not Displayed as Gender");
+    
+    WebElement male = driver.findElement(By.xpath("(//label[text()='Male'])[2]"));
+    
+    if(female.isSelected())
+      System.out.println("Male is Displayed as Gender");
+    else
+      System.out.println("Male is not Displayed as Gender");
+
+    Thread.sleep(5000);
+    driver.quit(); 
+  }
+}

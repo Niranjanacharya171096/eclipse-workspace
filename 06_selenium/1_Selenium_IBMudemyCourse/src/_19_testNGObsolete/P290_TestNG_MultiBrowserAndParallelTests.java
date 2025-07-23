@@ -1,0 +1,56 @@
+package _19_testNGObsolete;
+
+import java.time.Duration;
+
+import org.apache.log4j.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class P290_TestNG_MultiBrowserAndParallelTests {
+	private WebDriver driver;
+	private String baseUrl;
+	static Logger log = LogManager.getLogger(P290_TestNG_MultiBrowserAndParallelTests.class);
+
+	@Parameters("browserType")
+	@BeforeClass
+	public void beforeClass(String browser) {
+		if (browser.equalsIgnoreCase("firefox")) {
+			driver = new FirefoxDriver();
+		} else if (browser.equalsIgnoreCase("chrome")) {
+			// http://chromedriver.storage.googleapis.com/index.html
+			System.setProperty("webdriver.chrome.driver", "/Users/tomara/Desktop/selenium/chromedriver");
+			driver = new ChromeDriver();
+		}
+
+		baseUrl = "https://www.expedia.com/";
+		// Maximize the browser's window
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		PropertyConfigurator.configure("log4j.properties");
+		driver.get(baseUrl);
+	}
+
+	@Test
+	public void searchFlights() throws Exception {
+		P290_SearchPage.navigateToFlightsTab(driver);
+		P290_SearchPage.fillOriginTextBox(driver, "New York");
+		P290_SearchPage.fillDestinationTextBox(driver, "Chicago");
+		P290_SearchPage.fillDepartureDateTextBox(driver, "10/28/2014");
+		P290_SearchPage.fillReturnDateTextBox(driver, "10/31/2014");
+		P290_SearchPage.selectFlightAdults(driver, "2");
+	}
+
+	@AfterClass
+	public void afterClass() throws Exception {
+		Thread.sleep(10000);
+		driver.quit();
+	}
+
+}

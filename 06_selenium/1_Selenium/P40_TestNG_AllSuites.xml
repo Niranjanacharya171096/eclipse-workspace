@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" data-provider-thread-count="10">
+    <suite-files>
+        <suite-file path="P40_TestNG_BeforeAfterSuite.xml" />
+        <suite-file path="P44_TestNG_Suite.xml" />
+    </suite-files>
+</suite> <!-- Suite -->

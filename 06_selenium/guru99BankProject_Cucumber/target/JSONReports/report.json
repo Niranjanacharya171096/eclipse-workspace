@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-21T11:19:08.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10359199400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apphooks.AppHook.launchBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify Login of Guru99 Bank",
+        "description": "",
+        "id": "guru99-bank-project;verify-login-of-guru99-bank;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8801739200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apphooks.AppHook.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16120289700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on login page",
+            "match": {
+              "location": "stepdefinitions.LoginPageSD.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235372000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter UserID \"mngr529171\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr529171\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.LoginPageSD.i_enter_user_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120676700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter Password \"ehErAhU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ehErAhU\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.LoginPageSD.i_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086686200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefinitions.LoginPageSD.i_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5024210200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be on \"Managerhomepage\" Welcome Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Managerhomepage\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.LoginPageSD.i_should_be_on_welcome_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 Bank project",
+    "description": "",
+    "id": "guru99-bank-project",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginPage.feature",
+    "tags": []
+  }
+]

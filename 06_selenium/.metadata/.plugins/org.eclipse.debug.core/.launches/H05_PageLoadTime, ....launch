@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="4_HYRTutorials"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.hyrtutorials.testng.H24_Dataprovider"/>
+        <listEntry value="com.hyrtutorials.java.H05_PageLoadTime"/>
+        <listEntry value="com.hyrtutorials.testng.H24_Dataprovider_Supplier"/>
+        <listEntry value="com.hyrtutorials.java.H13_StoreScreenshot_FileHandler"/>
+        <listEntry value="com.hyrtutorials.java.H10_Popups"/>
+        <listEntry value="com.hyrtutorials.java.H14_DownloadFiles"/>
+        <listEntry value="com.hyrtutorials.java.H03_Permission_Popups"/>
+        <listEntry value="com.hyrtutorials.testng.FirstTest"/>
+        <listEntry value="com.hyrtutorials.java.H12_Frames"/>
+        <listEntry value="com.hyrtutorials.java.H06_DropDown"/>
+        <listEntry value="com.hyrtutorials.testng.H22_HardSoftAssertions"/>
+        <listEntry value="com.hyrtutorials.java.H11_Switching_Windows"/>
+        <listEntry value="com.hyrtutorials.java.H18_JSExecutor_ClickOperation"/>
+        <listEntry value="com.hyrtutorials.java.H20_CheckBrokenLinks"/>
+        <listEntry value="com.hyrtutorials.java.H13_TakeScreenShot"/>
+        <listEntry value="com.hyrtutorials.java.H01_DesiredCapabilities"/>
+        <listEntry value="com.hyrtutorials.java.H09_BasicControls"/>
+        <listEntry value="com.hyrtutorials.testng.H25_ExcelDataSupplier"/>
+        <listEntry value="com.hyrtutorials.java.H17_JSExecutor_TextBox"/>
+        <listEntry value="com.hyrtutorials.testng.H23_Parameter"/>
+        <listEntry value="com.hyrtutorials.java.H02_RemoveChromecontrolledby"/>
+        <listEntry value="com.hyrtutorials.java.H19_JSExecutor_HighlightElements"/>
+        <listEntry value="com.hyrtutorials.java.H16_JSExecutor_ScrollOperations"/>
+        <listEntry value="com.hyrtutorials.java.H15_Calendar"/>
+        <listEntry value="com.hyrtutorials.java.H04_ImplicitWaitTime"/>
+        <listEntry value="com.hyrtutorials.java.H08_Boostrap_DropDown2"/>
+        <listEntry value="com.hyrtutorials.testng.H25_ExcelDataReceiver"/>
+        <listEntry value="com.hyrtutorials.java.H07_Boostrap_DropDown1"/>
+        <listEntry value="com.hyrtutorials.java.H21_CheckBrokenImages"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

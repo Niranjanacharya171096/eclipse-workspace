@@ -1,0 +1,42 @@
+package _01_introduction;
+
+import java.time.Duration;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class P088_GetAttributeDemo {
+
+  private WebDriver driver;
+  private String baseUrl;
+
+  @Before
+  public void setUp() throws Exception {
+    driver = new FirefoxDriver();
+    baseUrl = "https://letskodeit.teachable.com/pages/practice";
+
+    driver.manage().window().maximize();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+  }
+
+  @Test
+  public void testGetText() throws Exception {
+    driver.get(baseUrl);
+
+    WebElement element = driver.findElement(By.id("name"));
+    String attributeValue = element.getAttribute("type");
+
+    System.out.println("Value of attribue is: " + attributeValue);
+  }
+
+  @After
+  public void tearDown() throws Exception {
+    Thread.sleep(2000);
+    driver.quit();
+  }
+}

@@ -1,0 +1,33 @@
+22:22:09.952 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:22:09.981 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:22:21.313 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:24:00.380 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+22:24:00.787 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+22:24:01.212 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\CTS-Y-Desk\.cache\selenium\msedgedriver\win64\134.0.3124.93\msedgedriver.exe
+22:24:04.955 [main] INFO  factory.DriverFactory - =====EDGE=====
+22:24:07.986 [main] INFO  factory.DriverFactory - ****** Data Provider *******
+22:24:09.426 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:24:12.241 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:24:12.265 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:24:23.839 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:24:23.842 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:24:35.066 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:24:35.077 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:24:45.928 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:25:35.799 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\eclipse-workspace\06_selenium\OpenCartv0.1_TestNGHybridFramework_byPavan\master.xml
+
+22:25:36.295 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+22:25:36.720 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\CTS-Y-Desk\.cache\selenium\msedgedriver\win64\134.0.3124.93\msedgedriver.exe
+22:25:41.373 [main] INFO  factory.DriverFactory - =====EDGE=====
+22:25:43.923 [main] INFO  factory.DriverFactory - ****** Data Provider *******
+22:25:45.437 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:25:48.177 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:25:48.210 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:25:59.724 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:25:59.733 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:26:11.505 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******
+22:26:11.513 [main] INFO  factory.DriverFactory - ****** Starting TC003_LoginDataDrivenTest *******
+22:26:22.729 [main] INFO  factory.DriverFactory - ****** Finished TC003_LoginDataDrivenTest *******

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T15:47:25 IST" name="Default suite" finished-at="2025-04-01T15:47:27 IST" duration-ms="1639">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T15:47:25 IST" name="Default test" finished-at="2025-04-01T15:47:27 IST" duration-ms="1639">
+      <class name="com.hyrtutorials.testng.H25_ExcelDataReceiver">
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:com.hyrtutorials.testng.H25_ExcelDataReceiver@69997e9d]" started-at="2025-04-01T15:47:27 IST" name="TestLogin" data-provider="loginData" finished-at="2025-04-01T15:47:27 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:com.hyrtutorials.testng.H25_ExcelDataReceiver@69997e9d]" started-at="2025-04-01T15:47:27 IST" name="TestLogin" data-provider="loginData" finished-at="2025-04-01T15:47:27 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:com.hyrtutorials.testng.H25_ExcelDataReceiver@69997e9d]" started-at="2025-04-01T15:47:27 IST" name="TestLogin" data-provider="loginData" finished-at="2025-04-01T15:47:27 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+      </class> <!-- com.hyrtutorials.testng.H25_ExcelDataReceiver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

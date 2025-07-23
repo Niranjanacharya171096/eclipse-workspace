@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Junit4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Cucumber"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium-java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium-server"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache collections4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Commons Lang"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Comons IO"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Compress"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache log4j 2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Log4j all"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache POI"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache xmlbeans"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/BrowserDrivers"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ExtentReports"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jsoup"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumJar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WebDriverManager"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Webdrivers"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

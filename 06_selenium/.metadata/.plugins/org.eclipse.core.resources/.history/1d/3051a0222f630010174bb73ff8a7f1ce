@@ -1,0 +1,59 @@
+package _17_TestNGObsolete;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import _16_log4jObsolete.P280_UsingLog4j;
+
+//@Listeners(utilities.SeleniumListeners.class)
+public class P291_TestNG_TestCase {
+	private WebDriver driver;
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	private String baseUrl;
+	static Logger log = LogManager.getLogger(P280_UsingLog4j.class);
+
+	@BeforeClass
+	public void beforeClass() {
+		driver = new FirefoxDriver();
+		baseUrl = "https://www.expedia.com/";
+
+		// Maximize the browser's window
+		driver.manage().window().maximize();
+		PropertyConfigurator.configure("log4j.properties");
+	}
+
+	@BeforeMethod
+	public void beforeMethod() {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	}
+
+	@Test
+	public void testMethod() throws Exception {
+		driver.get(baseUrl);
+		P290_SearchPage.navigateToFlightsTab(driver);
+		P290_SearchPage.fillOriginTextBox(driver, "New York");
+		P290_SearchPage.fillDestinationTextBox(driver, "Chicago");
+	}
+
+	@Test
+	public void testMethod1() throws Exception {
+		P290_SearchPage.fillDepartureDateTextBox(driver, "12/25/2014");
+		P290_SearchPage.fillReturnDateTextBox(driver, "12/31/2014");
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+	}
+
+}

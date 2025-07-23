@@ -1,0 +1,48 @@
+package _18_log4jObsolete;
+
+import java.util.Properties;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.Appender;
+import org.apache.logging.log4j.core.appender.ConsoleAppender;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * Trace Debug Info Warn Error Fatal VM Argument: -Dlog4j.debug=true
+ */
+public class P277_LoggingDemo {
+
+	static Logger log = LogManager.getLogger(P277_LoggingDemo.class);
+	static Appender append;
+
+	@Before
+	public void setUp() throws Exception {
+		// Define Appender
+		append = new ConsoleAppender(new SimpleLayout());
+		log.addAppender(append);
+
+		// BasicConfigurator.configure();
+		Properties log4jprop = new Properties();
+		log4jprop.setProperty("log4j.rootlogger", "DEBUG, CA");
+		log4jprop.setProperty("log4j.appender.CA", "org.apache.log4j.ConsoleAppender");
+		log4jprop.setProperty("log4j.appender.CA.layout", "org.apache.log4j.PatternLayout");
+		log4jprop.setProperty("log4j.appender.CA.layout.CoversionPattern", "%d{yyyy-MM-dd} -- %-10p %c - %m%n");
+
+		PropertyConfigurator.configure(log4jprop);
+		log.info("Running before method");
+	}
+
+	@Test
+	public void testLog4j() throws Exception {
+		log.info("Running test method");
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		log.info("Running after method");
+	}
+}

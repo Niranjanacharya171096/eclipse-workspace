@@ -1,0 +1,16 @@
+1697625327362	Move compilation unit
+1697625347215	Move compilation unit
+1697625415908	Rename type 'Runner'
+1697625436046	Rename type 'ParallelRunner'
+1697625740202	Rename type 'failedRunner'
+1697626041033	Delete element
+1697628455750	Delete element
+1697628512778	Delete element
+1697628744387	Delete element
+1697629086087	Rename package 'Runner'
+1697629350033	Rename package 'Parallel'
+1697630021174	Rename package 'parallel'
+1697630736848	Rename package 'runner'
+1697631672691	Rename type 'FailedScenariosRunner'
+1697631686546	Copy compilation unit
+1697632678253	Rename resource 'failedscenario.txt'

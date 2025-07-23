@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\eclipse-workspace\06_selenium\4_HYRTutorials_ExcelSheet\src\main\java\qualitest\iq\WebTableExtractor.java"/>
+			<item value="E:\eclipse-workspace\06_selenium\1_Selenium_Cucumber_DataTables_Demo\src\test\java\stepdefinitions\AllTpesDataAccessing.java"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\GoogleSearch_BDD_POM"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\5_QSpider\src\com\qspider\java\Q12_FileDownloadPopup.java"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\SPCucumber\src\test\java\stepdefinitions\LoginSD.java"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\SPCucumber"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\4_HYR_ExcelSheet"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\4_HYRTutorials"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\HYRTutorials"/>
+			<item value="E:\Software Files\eclipse-workspace\06_selenium\1_Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="UseCase1-IBM"/>
+			<item value="1_Selenium_ExcelData"/>
+			<item value="Qualitest_IQ"/>
+			<item value="1_"/>
+			<item value="LatestCucumber6WithPOM-master"/>
+			<item value="1_Selenium_Cucumber_ParallelExecution_Junit_Demo"/>
+			<item value="OpenCartv0.1_HybridAutomationFramework"/>
+			<item value="Selenium_POM_DataDrivenFramework_TestNG"/>
+			<item value="CucumberOrangeHRM"/>
+			<item value="ToolsQACucumberFramework"/>
+			<item value="SeleniumCucumberTestNG"/>
+			<item value="AutomationStepByStep_AppiumTest"/>
+			<item value="guru99BankProject"/>
+			<item value="CucumberTestNG_Demo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="UseCase1-IBM"/>
+			<item value="1_Selenium_ExcelData"/>
+			<item value="Qualitest_IQ"/>
+			<item value="LatestCucumber6WithPOM-master"/>
+			<item value="1_Selenium_Cucumber_ParallelExecution_Junit_Demo"/>
+			<item value="OpenCartv0.1_HybridAutomationFramework"/>
+			<item value="Selenium_POM_DataDrivenFramework_TestNG"/>
+			<item value="CucumberOrangeHRM"/>
+			<item value="ToolsQACucumberFramework"/>
+			<item value="SeleniumCucumberTestNG"/>
+			<item value="AutomationStepByStep_AppiumTest"/>
+			<item value="guru99BankProject"/>
+			<item value="CucumberTestNG_Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

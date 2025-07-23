@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;QSpider&apos; to &apos;P01_QSpider&apos;&#x0D;&#x0A;- Original project: &apos;2_QSpider_Selenium&apos;&#x0D;&#x0A;- Original element: &apos;QSpider&apos;&#x0D;&#x0A;- Renamed element: &apos;P01_QSpider&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;QSpider&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{QSpider.java[QSpider" matchStrategy="1" name="P01_QSpider" qualified="false" references="true" similarDeclarations="true" stamp="1687926335256" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qspider.scripts.ValidLoginExcel">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- com.qspider.scripts.ValidLoginExcel -->
+      <class name="com.qspider.scripts.InvalidLoginExcel">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.qspider.scripts.InvalidLoginExcel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

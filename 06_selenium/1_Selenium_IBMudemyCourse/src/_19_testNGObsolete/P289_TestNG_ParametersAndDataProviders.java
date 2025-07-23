@@ -1,0 +1,65 @@
+package _19_testNGObsolete;
+
+import java.time.Duration;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class P289_TestNG_ParametersAndDataProviders {
+	private WebDriver driver;
+	private String baseUrl;
+	static Logger log = LogManager.getLogger(P289_TestNG_ParametersAndDataProviders.class);
+
+	@BeforeClass
+	public void beforeClass() {
+		driver = new FirefoxDriver();
+		baseUrl = "https://www.expedia.com/";
+
+		// Maximize the browser's window
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		PropertyConfigurator.configure("log4j.properties");
+		driver.get(baseUrl);
+	}
+
+	@DataProvider(name = "fieldsInputs")
+	public static Object[][] searchData() {
+		return new Object[][] { { "New York", "Chicago", "10/28/2014", "10/31/2014" },
+		    { "New York", "Boston", "12/28/2014", "12/31/2014" } };
+	}
+
+	@Parameters({ "origin", "dest", "depDate", "retDate" })
+	@Test
+	public void searchFlights(String origin, String dest, String depDate, String retDate) throws Exception {
+		P289_SearchPage.navigateToFlightsTab(driver);
+		P289_SearchPage.fillOriginTextBox(driver, origin);
+		P289_SearchPage.fillDestinationTextBox(driver, dest);
+		P289_SearchPage.fillDepartureDateTextBox(driver, depDate);
+		P289_SearchPage.fillReturnDateTextBox(driver, retDate);
+	}
+
+	@Test(dataProvider = "fieldsInputs")
+	public void searchFlightsWithMultiData(String origin, String dest, String depDate, String retDate) throws Exception {
+		P289_SearchPage.navigateToFlightsTab(driver);
+		P289_SearchPage.clearAllFields(driver);
+		Thread.sleep(3000);
+		P289_SearchPage.fillOriginTextBox(driver, origin);
+		P289_SearchPage.fillDestinationTextBox(driver, dest);
+		P289_SearchPage.fillDepartureDateTextBox(driver, depDate);
+		P289_SearchPage.fillReturnDateTextBox(driver, retDate);
+		Thread.sleep(3000);
+	}
+
+	@AfterClass
+	public void afterClass() {
+	}
+
+}

@@ -1,0 +1,15 @@
+stepDefinitions\LoginDataDrivenSteps.class
+utilities\ExcelDataReader.class
+stepDefinitions\RegistrationSteps.class
+pageObjects\HomePage.class
+pageObjects\CheckoutPage.class
+pageObjects\MyAccountPage.class
+pageObjects\AccountRegistrationPage.class
+pageObjects\LoginPage.class
+pageObjects\ShoppingCartPage.class
+pageObjects\BasePage.class
+testRunner\TestRunner.class
+utilities\ConfigPropertiesReader.class
+pageObjects\SearchPage.class
+hooks\Hooks.class
+factory\DriverFactory.class
