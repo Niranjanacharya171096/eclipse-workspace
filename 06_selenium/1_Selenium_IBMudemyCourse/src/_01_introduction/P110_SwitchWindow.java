@@ -27,8 +27,6 @@ public class P110_SwitchWindow {
 
   @Test
   public void test() throws InterruptedException {
-
-    //
     //		WebElement searchBox = driver.findElement(By.id("search-courses"));
     //		searchBox.sendKeys("python");
     // Get the handle

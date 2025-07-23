@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,13 +23,13 @@ public class P100_CalendarSelection {
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
   }
 
-  // @Test
+  @Test
   public void test1() throws Exception {
     driver.get(baseUrl);
     // Click flights tab
-    driver.findElement(By.xpath("//a[@aria-controls='wizard-flight-pwa']")).click();
+    driver.findElement(By.xpath("//a[span[text()='Flights']]")).click();
     // Find departing field and click it
-    WebElement departingField = driver.findElement(By.id("d1-btn"));
+    WebElement departingField = driver.findElement(By.xpath("//label[text()='Dates']/following-sibling::button"));
     departingField.click();
     Thread.sleep(3000);
     // Find the departure date to be selected and click it
@@ -47,7 +48,7 @@ public class P100_CalendarSelection {
 
   @After
   public void tearDown() throws Exception {
-    Thread.sleep(3000);
-    driver.quit();
+    //    Thread.sleep(3000);
+    //    driver.quit();
   }
 }

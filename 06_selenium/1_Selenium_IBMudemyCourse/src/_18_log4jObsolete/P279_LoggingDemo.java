@@ -1,5 +1,6 @@
 package _18_log4jObsolete;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -7,17 +8,17 @@ import org.apache.logging.log4j.Logger;
  * Trace Debug Info Warn Error Fatal VM Argument: -Dlog4j.debug=true
  */
 public class P279_LoggingDemo {
-	static Logger log = LogManager.getLogger(P279_LoggingDemo.class);
+  static Logger log = LogManager.getLogger(P279_LoggingDemo.class);
 
-	public static void main(String[] args) {
-		PropertyConfigurator.configure("log4j.properties");
+  public static void main(String[] args) {
+    PropertyConfigurator.configure("log4j.properties");
 
-		log.info("This message is a info");
-		runMethod();
-		log.debug("This message is a debug");
-	}
+    log.info("This message is a info");
+    runMethod();
+    log.debug("This message is a debug");
+  }
 
-	public static void runMethod() {
-		log.info("This info message is from runMethod");
-	}
+  public static void runMethod() {
+    log.info("This info message is from runMethod");
+  }
 }
