@@ -1,0 +1,93 @@
+package _01_javaCourses;
+
+import java.lang.Comparable;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+class Employee implements Comparable<Employee> {
+    int age;
+    String name;
+    
+    public Employee(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee [age=" + age + ", name=" + name + "]";
+    }
+
+    @Override
+    public int compareTo(Employee that) {
+        return this.age>that.age?1:-1;
+    }
+}
+
+class Student {
+    int age;
+    String name;
+
+    public Student(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Student [age=" + age + ", name=" + name + "]";
+    }
+    
+}
+
+public class P100_ComparatorVsComparable {
+    public static void main(String[] args) {
+        Comparator<Integer> comparator1 = (i, j) -> i<j?1:-1;
+        // new Comparator<Integer>() {
+        //     public int compare(Integer i, Integer j) {
+        //         if(i<j) 
+        //             return 1;
+        //         else
+        //             return -1;
+        //     }
+        // };
+        
+        List<Integer> nums1 = new ArrayList<>();
+        // nums1.add("9"); //if we use Generics <>, throws Compile time error and avoids RunTimeException
+        nums1.add(33);
+        nums1.add(17);
+        nums1.add(62);
+        nums1.add(51);
+
+        System.out.println(nums1);
+        Collections.sort(nums1); // ascending by default
+        System.out.println(nums1);
+        Collections.sort(nums1, comparator1); // descending manually
+        System.out.println(nums1);
+
+        Comparator<Student> comparator2 = (i, j) -> (i.age<j.age)?1:-1;
+
+        List<Student> stud = new ArrayList<>();
+        stud.add(new Student(20, "Sayeed"));
+        stud.add(new Student(18, "Prakash"));
+        stud.add(new Student(21, "Naveen"));
+        stud.add(new Student(15, "Pruthvi"));
+
+        System.out.println(stud);
+        Collections.sort(stud, comparator2); // ascending by default
+        System.out.println(stud);
+
+        //Using Comparable(I) manually we can create comparision 
+        List<Employee> employees = new ArrayList<>();
+        employees.add(new Employee(20, "Sayeed"));
+        employees.add(new Employee(18, "Prakash"));
+        employees.add(new Employee(21, "Naveen"));
+        employees.add(new Employee(15, "Pruthvi"));
+
+        System.out.println(employees);
+        Collections.sort(employees); // ascending by default
+        System.out.println(employees);
+    }
+}

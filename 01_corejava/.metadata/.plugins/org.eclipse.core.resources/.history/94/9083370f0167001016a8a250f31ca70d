@@ -1,0 +1,28 @@
+package udemycourse;
+
+enum Laptop1 {
+    Dell(45433), Lenovo, hp(43344);
+    int price;
+
+    private Laptop1() {
+        price = 25590;
+    }
+
+    private Laptop1(int price) {
+        this.price = price;
+    }
+    
+}
+
+public class P075_EnumClass {
+    public static void main(String[] args) {
+        Laptop1 lp = Laptop1.Lenovo;
+        System.out.println(lp.getClass().getSuperclass());
+
+        System.out.println(lp+" = "+lp.price);
+        System.out.println(lp.name());
+
+        for(Laptop1 lp1 : Laptop1.values())
+            System.out.println(lp1+" = "+lp1.price);
+    }
+}

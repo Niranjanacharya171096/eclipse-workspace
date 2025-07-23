@@ -1,0 +1,38 @@
+package _01_javaCourse;
+
+enum Status1 {
+    Running, Failed, Pending, Success;
+}
+
+public class P074_EnumIfSwitch {
+    public static void main(String[] args) {
+        Status1 status = Status1.Pending;
+
+        if(status == Status1.Running)
+            System.out.println("RUNNING");
+        else if(status == Status1.Failed)
+            System.out.println("FAILED");
+        else if(status == Status1.Pending)
+            System.out.println("PENDING");
+        else 
+            System.out.println("SUCESS");
+            
+
+        status = Status1.Failed;
+        switch (status) {
+            case Running:                
+                System.out.println("RUNNING");
+                break;
+            case Failed:                
+                System.out.println("FAILED");
+                break;
+            case Pending:                
+                System.out.println("PENDING");
+                break;        
+            default:
+                System.out.println("SUCESS");
+                break;
+        }
+
+    }
+}

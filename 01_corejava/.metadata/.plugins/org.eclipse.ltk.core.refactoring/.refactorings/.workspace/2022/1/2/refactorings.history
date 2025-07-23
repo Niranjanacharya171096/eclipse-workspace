@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;08.03_ShallowCloning&apos;" deleteContents="true" description="Delete resource &apos;08.03_ShallowCloning&apos;" element1="/08.03_ShallowCloning" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1641204112237"/>
+</session>

@@ -1,0 +1,54 @@
+package _01_javaCourse;
+
+class Laptop {
+    String model;
+    int price;
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((model == null) ? 0 : model.hashCode());
+        result = prime * result + price;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Laptop other = (Laptop) obj;
+        if (model == null) {
+            if (other.model != null)
+                return false;
+        } else if (!model.equals(other.model))
+            return false;
+        if (price != other.price)
+            return false;
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Laptop [model=" + model + ", price=" + price + "]";
+    }    
+}
+public class P058_ObjectClass {
+    public static void main(String[] args) {
+        Laptop lap1 = new Laptop();
+        lap1.model = "Lenovo";
+        lap1.price = 43400;
+
+        Laptop lap2 = new Laptop();
+        lap2.model = "Lenovo";
+        lap2.price = 43400;
+
+        System.out.println(lap1.hashCode()+" "+lap2.hashCode());
+        System.out.println(lap1.equals(lap2)); //checks values
+        System.out.println(lap1.toString()+" "+lap2.toString());
+    }
+}

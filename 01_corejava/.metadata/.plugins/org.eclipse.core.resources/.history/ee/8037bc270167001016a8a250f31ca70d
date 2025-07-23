@@ -1,0 +1,25 @@
+package _01_javaCourses;
+
+public class P083_TryWithMultipleCatch {
+    public static void main(String[] args) {
+        int i;
+        int j=i=0;
+        String str=null;
+        int num[] = new int[5];
+        try {
+            j=18/i;
+            System.out.println(num[5]);
+            System.out.println(str.length());
+        } 
+        //Parent Exception should be below of child exception
+        catch (ArithmeticException e) {
+            System.out.println("i should not be 0 :: " + e);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("index is more than size :: " + e);
+        } catch (Exception e) { 
+            System.out.println("Something went wrong :: " + e);
+        }
+
+        System.out.println("end");
+    }
+}

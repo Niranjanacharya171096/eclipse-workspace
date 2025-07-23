@@ -1,0 +1,22 @@
+package _01_javaCourse;
+
+class Calc1 {
+    public void show() throws ClassNotFoundException {
+        // try {
+            Class.forName("P087_Throws");
+        // } catch (ClassNotFoundException e) {
+            // e.printStackTrace();
+        // }
+    }
+}
+public class P087_Throws {
+    public static void main(String[] args) {
+        System.out.println("class loaded");
+        Calc1 calc = new Calc1();
+        try {
+            calc.show();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}

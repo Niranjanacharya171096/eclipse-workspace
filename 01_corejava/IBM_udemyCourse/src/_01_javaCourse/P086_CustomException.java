@@ -1,0 +1,27 @@
+package _01_javaCourse;
+
+class CustomException extends RuntimeException { // or Exception {
+    public CustomException(String name) {
+        super(name);
+    }
+}
+public class P086_CustomException {
+    public static void main(String[] args) {
+        int i = 20;
+        int j = 0;
+
+        try {
+            j = 18 / i;
+            if(j == 0)
+                throw new CustomException("i dont want to print zero");
+        }
+        // Parent Exception should be below of child exception
+        catch (CustomException e) {
+            System.out.println("i should not be 0 :: " + e);
+        } catch (Exception e) {
+            System.out.println("Something went wrong :: " + e);
+        }
+
+        System.out.println("end");
+    }
+}

@@ -1,0 +1,12 @@
+package udemycourse;
+
+public class P004_Variables {
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println(num);
+
+        //int num=8;
+        num = 8;
+        System.out.println(num);
+    }
+}

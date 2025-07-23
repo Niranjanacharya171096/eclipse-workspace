@@ -1,0 +1,17 @@
+package _01_javaCourse;
+
+enum Status {
+    Running, Failed, Pending, Success;
+}
+
+public class P073_Enum {
+    public static void main(String[] args) {
+        Status status = Status.Pending;
+        System.out.println(status);
+        System.out.println(status.ordinal());
+
+        Status[] status2 = Status.values();
+        for (Status status3 : status2)
+            System.out.println(status3 + "= index = " + status3.ordinal());
+    }
+}

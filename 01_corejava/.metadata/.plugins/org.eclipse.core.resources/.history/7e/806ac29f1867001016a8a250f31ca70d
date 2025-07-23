@@ -1,0 +1,21 @@
+package _01_javaCourse;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class P104_FilterMapReduceSorted {
+  public static void main(String[] args) {
+    List<Integer> nums1 = Arrays.asList(33, 17, 62, 51, 24);
+
+    int sum1 = nums1.stream()
+        .filter(num -> num % 2 == 0) // we can put condition in Predicate(I) and pass reference
+        .map(num -> num * 2) // we can put operation in Function(I) and pass reference
+        .reduce(0, (carry, element) -> carry + element);
+
+    System.out.println(sum1);
+
+    Stream<Integer> sortedVals = nums1.stream().sorted();
+    sortedVals.forEach(num -> System.out.println(num));
+  }
+}

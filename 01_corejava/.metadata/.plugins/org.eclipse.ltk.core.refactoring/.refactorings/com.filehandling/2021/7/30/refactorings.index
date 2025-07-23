@@ -1,0 +1,21 @@
+1627115613046	Rename type 'CreateFileFriend'
+1627116176435	Rename type 'ReadFileFriend'
+1627116194322	Rename type 'UpdateFileFriend'
+1627116217674	Rename compilation unit 'DeleteFileFriend.java'
+1627117367889	Rename type 'InputStreamClassMethods'
+1627117519266	Rename type 'OutputStreamClassMethods'
+1627117576318	Delete element
+1627117665093	Rename type 'FileChangePermission'
+1627117679550	Rename type 'FileCopySrcToDest'
+1627117692846	Rename type 'FileCurrentPermission'
+1627117705308	Rename type 'FileDeleteFromDirectory'
+1627117717083	Rename type 'FileDeleteFromPath'
+1627117730356	Rename type 'FileDirectoryContents'
+1627117743925	Rename type 'FileDirectoryExist'
+1627118023899	Rename type 'chapter95_FileClass_ChangePermission'
+1627118229295	Copy compilation unit
+1627118322621	Rename type 'chapter95_FileClass_CopySrcToDest'
+1627118417099	Delete element
+1627118451647	Rename type 'chapter95_FileClass_DeleteFromPath'
+1627118466269	Rename type 'chapter95_DeletingFile_FromPath'
+1627118484749	Rename type 'chapter95_FileClass_DeleteFromDirectory'

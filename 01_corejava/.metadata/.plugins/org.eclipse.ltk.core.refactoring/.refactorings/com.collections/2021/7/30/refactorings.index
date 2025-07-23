@@ -1,0 +1,99 @@
+1626676007406	Rename package 'com.collections.com'
+1626676168907	Delete element
+1626676260048	Rename package 'com.collections'
+1626676292844	Delete element
+1626676319567	Rename package 'com.geeksforgeeks'
+1626850116951	Delete element
+1626850955417	Delete element
+1626850985336	Delete elements
+1626851000113	Delete elements
+1626851008965	Delete elements
+1626851022177	Delete elements
+1626851033826	Delete elements
+1626851054281	Delete element
+1626851060210	Delete element
+1626851084585	Delete element
+1626851090117	Delete elements
+1626851099474	Delete elements
+1626851124467	Delete elements
+1626851143310	Delete elements
+1626851154433	Delete element
+1626851159314	Delete elements
+1626851329569	Rename compilation unit 'CollectionDemo.java'
+1626927828611	Rename type 'CollectionsClassOperations'
+1626928214067	Rename type 'ListClasses'
+1626928590185	Rename compilation unit 'QueueClasses.java'
+1626931201500	Rename type 'DequeInterfaceClasses'
+1626931746149	Copy compilation unit
+1626932525135	Rename type 'chapter62_Collections_DeQueueClasses'
+1626932537026	Rename type 'chapter62_Collections_ListClasses'
+1626932549682	Rename type 'chapter62_Collections_QueueClasses'
+1626932564399	Rename type 'chapter62_Collections_SetClasses'
+1626937295985	Copy compilation unit
+1626937906656	Rename type 'HashMapEx'
+1626943992561	Delete element
+1626962885550	Copy compilation unit
+1626962970217	Rename type 'chapter64_IteratorIterableInterface_inCustomDataStructure'
+1626963796013	Delete element
+1626963885218	Rename type 'chapter65_IteratorIterableInterface_inCustomDataStructure'
+1626963903171	Rename type 'chapter65_IteratorIterableInterface_iplementIterable'
+1626965050138	Delete element
+1626966871410	Rename type 'ListInterfaceOperations'
+1627016194703	Rename type 'ListInterfaceClasses'
+1627018013122	Copy compilation unit
+1627021680975	Rename type 'LinkedListEx'
+1627021799404	Rename type 'LinkedListOperations'
+1627023560920	Rename type 'VectorEx'
+1627023580193	Rename type 'VectorOperations'
+1627035938987	Rename type 'StackEx'
+1627036447630	Rename type 'StackOperations'
+1627036687964	Rename type 'GFG'
+1627036855810	Rename type 'DequeInterface'
+1627036882735	Rename type 'DequeInterfaceOperations'
+1627036906407	Rename type 'MapInterface'
+1627036925385	Rename type 'MapInterfaceClasses'
+1627036951190	Rename type 'MapInterfaceOperations'
+1627036967493	Rename type 'QueueInterface'
+1627036986575	Rename type 'QueueInterfaceClasses'
+1627037008620	Rename type 'QueueInterfaceOperations'
+1627037157189	Rename type 'PriorityQueueEx'
+1627037177156	Rename type 'PriorityQueueOperations'
+1627037248889	Rename type 'HashSetEx'
+1627037273234	Rename type 'HashSetOperations'
+1627037291326	Rename type 'chapter72_PriorityQueue_Operations'
+1627037339546	Rename type 'LinkedHashSetEx'
+1627037366155	Rename type 'LinkedHashSetOperations'
+1627037385157	Rename type 'chapter76_LinkedHashSetClass'
+1627037423518	Rename type 'SortedSetInterface'
+1627037449205	Rename type 'SortedSetInterfaceClasses'
+1627037486015	Rename type 'SortedSetInterfaceOperations'
+1627037529161	Rename type 'TreeSetEx'
+1627037553052	Rename type 'TreeSetOperations'
+1627037584592	Rename type 'NavigableSetInterface'
+1627037601152	Rename type 'NavigableSetInterfaceOperations'
+1627037647414	Rename type 'HashMapConstructors'
+1627037659940	Rename type 'HashMapOperations'
+1627037689325	Rename type 'HashTableConstructors'
+1627037722557	Rename type 'HashTableEx'
+1627037735867	Rename type 'HashTableOperations'
+1627037786506	Rename type 'chapter82_HashTableClass_Constructors'
+1627037798392	Rename type 'chapter83_HashTableClass_Operations'
+1627037811152	Rename type 'chapter83_HashTableClass'
+1627037839586	Rename type 'LinkedHashMapEx'
+1627037854522	Rename type 'LinkedHashMapOperations'
+1627037883391	Rename type 'SortedMapInterface'
+1627037899028	Rename type 'chapter84_SortedMapInterface'
+1627037943498	Rename type 'SortedMapInterfaceClass'
+1627037975582	Rename type 'SortedMapInterfaceOperations'
+1627038001421	Rename type 'TreeMapConstructors'
+1627038030764	Rename type 'TreeMapEx'
+1627038047144	Rename type 'TreeMapOperations'
+1627044400714	Copy compilation unit
+1627046110755	Copy compilation unit
+1627046982888	Copy compilation unit
+1627047161568	Rename type 'chapter74_SetInterface'
+1627047254065	Copy compilation unit
+1627047846281	Copy compilation unit
+1627048239772	Copy compilation unit
+1627048253808	Rename type 'chapter75_SetInterface_Classed'
+1627106464861	Rename compilation unit 'chapter82_HashtableClass_Constructors.java'

@@ -1,0 +1,22 @@
+package udemycourse;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class P102_ForEach {
+    public static void main(String[] args) {
+        List<Integer> nums1 = Arrays.asList(33, 17, 62, 51, 24);
+        // new ArrayList<>();
+        // nums1.add("9"); //if we use Generics <>, throws Compile time error and avoids
+        // RunTimeException
+        // nums1.add(33);
+
+        System.out.println(nums1);
+        for (int num : nums1) {
+            System.out.println(num);
+        }
+
+        //forEach
+        nums1.forEach(num -> System.out.println(num));
+    }
+}

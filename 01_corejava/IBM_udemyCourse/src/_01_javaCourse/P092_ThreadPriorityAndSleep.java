@@ -1,0 +1,42 @@
+package _01_javaCourse;
+
+class Aclass1 extends Thread {
+    public void run() {
+        for(int i=0; i<5; i++) {
+            System.out.println("A show = "+i);
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+class Bclass1 extends Thread {
+    public void run() {
+        for(int i=0; i<10; i++) {
+            System.out.println("B show = "+i);
+        }
+    }
+}
+
+public class P092_ThreadPriorityAndSleep {
+    public static void main(String[] args) {
+        Aclass1 a = new Aclass1();
+        Bclass1 b = new Bclass1();
+        
+        System.out.println(a.getPriority());
+        System.out.println(b.getPriority());
+        b.setPriority(Thread.MAX_PRIORITY); //or 10
+        //Min-1; Norm-5; Max-10
+
+        long time1 = System.nanoTime();
+        a.start();
+        b.start();
+
+        long time2 = System.nanoTime();
+        System.out.println((double)(time2-time1)/1_000_000);
+
+    }
+}

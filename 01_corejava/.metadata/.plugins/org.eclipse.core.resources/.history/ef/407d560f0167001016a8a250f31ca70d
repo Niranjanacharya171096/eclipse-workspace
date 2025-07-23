@@ -1,0 +1,7 @@
+package udemycourse;
+
+public class P095_ThreadStates {
+    public static void main(String[] args) {
+        
+    }
+}

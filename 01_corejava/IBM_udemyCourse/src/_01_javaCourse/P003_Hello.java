@@ -1,0 +1,7 @@
+package _01_javaCourse;
+
+public class P003_Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}

@@ -1,0 +1,31 @@
+package udemycourse;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.Buffer;
+import java.util.Scanner;
+
+public class P088_InputBufferReaderScanner {
+    public static void main(String[] args) {
+        int num=0;
+        try {
+        System.out.println("Enter num:");
+        num = System.in.read(); //stores ASCII of entered value
+        System.out.println(num-48); 
+
+        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        num = Integer.parseInt(bufferedReader.readLine());
+        System.out.println(num);
+        } catch (IOException e) {
+            System.out.println(e);
+        } catch (NumberFormatException e) {
+            System.out.println(e);
+        }
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
+        System.out.println(num);
+    }
+}

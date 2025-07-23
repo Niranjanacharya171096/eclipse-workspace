@@ -1,0 +1,31 @@
+package _01_javaCourse;
+
+@FunctionalInterface
+interface funcInterfc {
+    void show();
+    default void m3(){
+      System.out.println("m3-I");
+      }
+      static void m4(){
+      System.out.println("m4-I");
+      } 
+}
+
+// class I implements funcInterfc {
+//     @Override
+//     public void show() {
+//         System.out.println("I show");
+//     }
+// }
+
+public class P078_InterfaceTypes {
+    public static void main(String[] args) {
+        funcInterfc fi = new funcInterfc() {
+            public void show() {
+                System.out.println("I show");
+            }
+
+        };
+        fi.show();
+    }
+}

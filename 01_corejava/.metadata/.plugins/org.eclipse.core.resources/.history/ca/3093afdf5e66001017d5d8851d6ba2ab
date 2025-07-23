@@ -1,0 +1,60 @@
+package strings;
+
+import java.util.Arrays;
+
+class CommonWordsIn2Strings {
+  public static void main(String[] args) {
+    String str1 = "my name is niranjan";
+    String str2 = "india is my country";
+    String[] words1 = str1.split("\\W+");
+    String[] words2 = str2.split("\\W+");
+    System.out.println(Arrays.toString(words2));
+//1st way
+    String result = "";
+    for (int i = 0; i < words1.length; i++) {
+      String word = words1[i];
+
+      System.out.println(words2[i].indexOf(word));
+//      if (word != " " && words2[i].indexOf(word) != -1 && result.indexOf(word) == -1) {
+//        result += word;
+//      }
+    }
+
+    System.out.println("Common words: " + result);
+//2nd way
+    char[] common = new char[26];
+    int index = 0;
+
+    for (int i = 0; i < str1.length(); i++) {
+      char ch = str1.charAt(i);
+
+      if (ch == ' ')
+        continue;
+
+      if (isInString(str2, ch) && !isInArray(common, index, ch)) {
+        common[index++] = ch;
+      }
+    }
+
+    System.out.print("Common characters: ");
+    for (int i = 0; i < index; i++) {
+      System.out.print(common[i] + " ");
+    }
+  }
+
+  static boolean isInString(String str, char ch) {
+    for (int i = 0; i < str.length(); i++) {
+      if (str.charAt(i) == ch)
+        return true;
+    }
+    return false;
+  }
+
+  static boolean isInArray(char[] arr, int length, char ch) {
+    for (int i = 0; i < length; i++) {
+      if (arr[i] == ch)
+        return true;
+    }
+    return false;
+  }
+}

@@ -1,0 +1,34 @@
+package _01_javaCourse;
+
+interface Mobile {
+    void model();
+}
+
+class OnePlus implements Mobile {
+    public void model() {
+        System.out.println("Oneplus 7");
+    }
+}  
+
+class Motorola implements Mobile {
+    public void model() {
+        System.out.println("Motorola edge 60");
+    }
+}
+
+class User {
+    public void uses(Mobile mobl){
+        mobl.model();
+    }
+}
+
+public class P070_Interface {
+    public static void main(String[] args) {
+        Mobile mobl1 = new OnePlus();
+        Mobile mobl2 = new Motorola();
+
+        User user = new User();
+        user.uses(mobl1);
+        user.uses(mobl2);
+    }
+}

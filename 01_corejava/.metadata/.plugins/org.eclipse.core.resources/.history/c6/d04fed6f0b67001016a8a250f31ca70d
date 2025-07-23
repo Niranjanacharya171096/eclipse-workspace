@@ -1,0 +1,29 @@
+package _01_javaCourse;
+
+@FunctionalInterface // only one method and Lambd exp only for Functional interface
+interface funcInterfc4 {
+  String show(int i, int j);
+}
+
+@FunctionalInterface // only one method and Lambd exp only for Functional interface
+interface funcInterfc5 {
+  int add(int i, int j);
+}
+
+public class P080_LambdaExpWithReturn {
+  public static void main(String[] args) {
+    funcInterfc4 fi4 = (i, j) -> i + " " + j; // Lambda Exp
+    // new funcInterfc1() {
+    // public void show(int i)
+    // {
+    // return i;
+    // };
+    System.out.println(fi4.show(5, 6));
+
+    funcInterfc5 fi5 = (i, j) -> {
+      System.out.println("Result =");
+      return i + j; // Lamda Exp
+    };
+    System.out.println(fi5.add(6, 8));
+  }
+}

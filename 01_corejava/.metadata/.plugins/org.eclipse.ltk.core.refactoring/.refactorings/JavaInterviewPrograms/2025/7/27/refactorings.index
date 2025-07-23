@@ -1,0 +1,24 @@
+1751520650600	Rename type 'Animal'
+1751521771840	Rename type 'Vehicle'
+1751521817251	Delete element
+1751523693182	Rename type 'P23_ReverseBiggestWord'
+1751523851041	Rename type 'ReverseWords'
+1751524961343	Rename type 'stringStartsWith'
+1751525065255	Rename type 'ReverseWithIterator'
+1751525375592	Delete element
+1751526563484	Delete element
+1751530022406	Rename type 'PalindromeCheck'
+1751530040572	Rename type 'StringPalindromeCheck'
+1751530068652	Rename compilation unit 'P25_ReverseStringCheckPalindrome.java'
+1751531046872	Rename type 'P25_ReverseStringAndCheckPalindrome'
+1751531334534	Rename type 'StringPalindromeCheckWithoutReversing'
+1751534652580	Delete element
+1751534730338	Rename type 'StringStartsWith'
+1751535089631	Rename type 'P25_ReverseString'
+1751536647757	Rename compilation unit 'LeftRotateArray.java'
+1751536763545	Rename compilation unit 'LeftRotateArrayByOneIndex.java'
+1751537118475	Move compilation unit
+1751538654157	Delete element
+1751538819899	Delete element
+1751538953040	Delete element
+1751540781532	Rename type 'ConcatComparison'

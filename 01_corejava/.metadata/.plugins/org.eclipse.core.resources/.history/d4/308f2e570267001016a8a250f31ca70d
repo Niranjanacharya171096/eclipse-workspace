@@ -1,0 +1,25 @@
+package _01_javaCourse;
+
+@FunctionalInterface
+interface funcInterfc {
+    void show();
+}
+
+// class I implements funcInterfc {
+//     @Override
+//     public void show() {
+//         System.out.println("I show");
+//     }
+// }
+
+public class P078_InterfaceTypes {
+    public static void main(String[] args) {
+        funcInterfc fi = new funcInterfc() {
+            public void show() {
+                System.out.println("I show");
+            }
+
+        };
+        fi.show();
+    }
+}

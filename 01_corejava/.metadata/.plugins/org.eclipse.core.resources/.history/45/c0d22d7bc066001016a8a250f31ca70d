@@ -1,0 +1,33 @@
+package collections;
+
+import java.util.*;
+
+public class CommonWordsIn2Strings {
+  public static void main(String[] args) {
+    String str1 = "my name is raj";
+    String str2 = "india is my country";
+
+    String[] words1 = str1.toLowerCase().split("\\s+");
+    String[] words2 = str2.toLowerCase().split("\\s+");
+
+    // Use Set for fast lookup
+    Set<String> set1 = new HashSet<>(Arrays.asList(words1));
+    Set<String> commonWords = new HashSet<>();
+
+    // Check for common words
+    for (String word : words2) {
+      if (set1.contains(word)) {
+        commonWords.add(word);
+      }
+    }
+
+    if (commonWords.isEmpty()) {
+      System.out.println("No common words found.");
+    } else {
+      System.out.println("Common words:");
+      for (String word : commonWords) {
+        System.out.println(word);
+      }
+    }
+  }
+}

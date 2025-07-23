@@ -1,0 +1,44 @@
+package _01_javaCourse;
+
+class Counter {
+    int count;
+
+    public synchronized void increment() {
+        count++;
+    }
+}
+
+public class P094_RaceCondition {
+    public static void main(String[] args) {
+        Counter counter = new Counter();
+
+        Runnable a = () -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        };
+        Runnable b = () -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        };
+
+        Thread t1 = new Thread(a);
+        Thread t2 = new Thread(b);
+
+        long time1 = System.nanoTime();
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join(); // wait for t1 to finish
+            t2.join(); // wait for t2 to finish
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        long time2 = System.nanoTime();
+        System.out.println((double) (time2 - time1) / 1_000_000);
+
+        System.out.println(counter.count);
+    }
+}

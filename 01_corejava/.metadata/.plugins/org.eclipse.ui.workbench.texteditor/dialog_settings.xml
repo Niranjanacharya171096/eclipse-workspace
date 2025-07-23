@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="true"/>
+		<item key="incremental" value="true"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="ch"/>
+		<list key="findhistory">
+			<item value="package _01_javaCourse;"/>
+			<item value="ch"/>
+			<item value="str"/>
+			<item value="right"/>
+			<item value="left"/>
+			<item value="arr"/>
+			<item value="set1"/>
+			<item value="&lt;T&gt;"/>
+			<item value="c"/>
+			<item value="b"/>
+			<item value="a"/>
+			<item value="num"/>
+			<item value="y"/>
+			<item value="x "/>
+			<item value="z"/>
+		</list>
+		<list key="replacehistory">
+			<item value="word"/>
+			<item value="strList"/>
+			<item value="end"/>
+			<item value="start"/>
+			<item value="words"/>
+			<item value="hashSet"/>
+			<item value=""/>
+			<item value="ch"/>
+			<item value="str2"/>
+			<item value="str1"/>
+			<item value="numArr"/>
+			<item value="b"/>
+			<item value="a"/>
+			<item value="c"/>
+			<item value="digCount"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="838"/>
+		<item key="DIALOG_Y_ORIGIN" value="345"/>
+		<item key="DIALOG_WIDTH" value="536"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

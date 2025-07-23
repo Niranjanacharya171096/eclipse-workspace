@@ -1,0 +1,30 @@
+package udemycourse;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class P097_ArrayList {
+    public static void main(String[] args) {
+        Collection<Integer> nums1 = new ArrayList<>();        
+        // nums1.add("9"); //if we use Generics <>, throws Compile time error and avoids RunTimeException
+        nums1.add(17);
+        nums1.add(5);
+        nums1.add(6);
+        nums1.add(5);
+        System.out.println(nums1);
+        for(Integer num : nums1) { //Collection(I) doesn't support Indexing
+            System.out.println(num);
+        }
+
+        List<Integer> nums2 = new ArrayList<>();
+        nums2.add(7);
+        nums2.add(1);
+        nums2.add(9);
+        nums2.add(7);
+        System.out.println(nums2);
+        for(int i=0;i<nums2.size();i++) {
+            System.out.println(nums2.get(i));
+        }
+    }
+}

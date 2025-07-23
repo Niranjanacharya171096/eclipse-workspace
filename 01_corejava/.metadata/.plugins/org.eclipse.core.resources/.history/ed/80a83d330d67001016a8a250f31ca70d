@@ -1,0 +1,39 @@
+package _01_javaCourse;
+
+@FunctionalInterface
+interface funcInterfc4 {
+  int print(int i);
+}
+
+@FunctionalInterface
+interface funcInterfc5 {
+  String show(int i, int j);
+}
+
+@FunctionalInterface
+interface funcInterfc6 {
+  int add(int i, int j);
+}
+
+public class P080_LambdaExpWithReturn {
+  public static void main(String[] args) {
+    funcInterfc4 fi4 =i -> i;
+    System.out.println(fi6.print(1));
+        // new funcInterfc1() {
+        // public void show(int i)
+        // {
+        // return i;
+        // };
+       
+
+    funcInterfc5 fi5 =  (i, j) -> i + " " + j; // Lambda Exp
+    System.out.println(fi4.show(5, 6));
+    
+
+    funcInterfc6 fi6 = (i, j) -> {
+      System.out.println("Result =");
+      return i + j; // Lambda Exp
+    };
+    System.out.println(fi5.add(6, 8));
+  }
+}

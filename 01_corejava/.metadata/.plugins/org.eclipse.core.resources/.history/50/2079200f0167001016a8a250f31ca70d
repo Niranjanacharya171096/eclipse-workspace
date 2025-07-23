@@ -1,0 +1,31 @@
+package udemycourse;
+
+class Aclass extends Thread {
+    public void run() {
+        for(int i=0; i<5; i++) {
+            System.out.println("A show = "+i);
+        }
+    }
+}
+
+class Bclass extends Thread {
+    public void run() {
+        for(int i=0; i<10; i++) {
+            System.out.println("B show = "+i);
+        }
+    }
+}
+
+public class P091_MultipleThreads {
+    public static void main(String[] args) {
+        Aclass a = new Aclass();
+        Bclass b = new Bclass();
+        
+        long time1 = System.nanoTime();
+        a.start();
+        b.start();
+        long time2 = System.nanoTime();
+        System.out.println((double)(time2-time1)/1_000_000);
+    }
+}
+ 

@@ -1,0 +1,30 @@
+package _01_javaCourse;
+
+@FunctionalInterface // only one method and Lambda exp only for Functional interface
+interface funcInterfc1 {
+  void show(int i);
+}
+
+@FunctionalInterface // only one method and Lambda exp only for Functional interface
+interface funcInterfc2 {
+  void show(int i, int j);
+}
+// class I implements funcInterfc {
+//     @Override
+//     public void show() {
+//         System.out.println("I show");
+//     }
+// }
+
+public class P079_LambdaExpression {
+  public static void main(String[] args) {
+    funcInterfc1 fi1 = i -> System.out.println("show = " + i); // Lambda Exp
+    // new funcInterfc1() { public void show(int i)
+    // { //as only one statement
+    // };
+    fi1.show(5);
+
+    funcInterfc2 fi2 = (i, j) -> System.out.println("show = " + i + " " + j); // Lambda Exp
+    fi2.show(6, 8);
+  }
+}

@@ -1,0 +1,22 @@
+package _01_javaCourses;
+
+class P {
+    public void p1show() {
+        System.out.println("P1 show");
+    }
+    public void p2show() {
+        System.out.println("P2 show");
+    }
+}
+
+public class P068_AnonymousInnerClasses {
+    public static void main(String[] args) {
+        P p = new P() {
+            public void p1show() {
+                System.out.println("inner P1 show");
+            }
+        };
+        p.p1show();
+        p.p2show();
+    }
+}

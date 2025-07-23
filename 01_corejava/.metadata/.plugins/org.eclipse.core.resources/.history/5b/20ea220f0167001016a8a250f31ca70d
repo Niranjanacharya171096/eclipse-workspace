@@ -1,0 +1,37 @@
+package udemycourse;
+
+import java.util.*;
+
+public class P098_Set {
+    public static void main(String[] args) {
+        Collection<Integer> nums1 = new HashSet<>();        
+        // nums1.add("9"); //if we use Generics <>, throws Compile time error and avoids RunTimeException
+        nums1.add(17);
+        nums1.add(5);
+        nums1.add(6);
+        nums1.add(5); //Duplication not allowed
+        System.out.println(nums1);
+        for(Integer num : nums1) { //Collection(I) doesn't support Indexing
+            System.out.println(num);
+        }
+
+        Set<Integer> nums2 = new HashSet<>(); //unsorted set
+        nums2.add(9);
+        nums2.add(7);
+        nums2.add(1);
+        nums2.add(7); //Duplication not allowed
+        System.out.println(nums2);
+        for(Integer num : nums2) { //Set(I) doesn't support Indexing
+            System.out.println(num);
+        }
+
+        Set<Integer> nums3 = new TreeSet<>(nums2); //sortred set
+        System.out.println(nums3); 
+
+        //Iterator
+        Iterator<Integer> it = nums3.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+   }
+}

@@ -1,0 +1,56 @@
+1738842376385	Rename package 'array'
+1738842537694	Move compilation unit
+1738842566876	Rename type 'SwapNumbers'
+1738842625608	Rename type 'SwapNumberWithoutVariable'
+1738842634771	Move compilation unit
+1738842712396	Rename type 'FindOddEvenNumbers'
+1738842716522	Move compilation unit
+1738842783413	Rename type 'FindNumberIsPrime'
+1738842799162	Move compilation unit
+1738843379469	Rename type 'PrimeNumbersInRange'
+1738843449270	Rename type 'ArmstrongNumber'
+1738843451971	Move compilation unit
+1738843495154	Rename type 'P01_SwapNumbers'
+1738843519740	Rename type 'P02_SwapNumbers'
+1738843533952	Rename type 'P07_ArmstrongNumber'
+1738843696611	Move compilation unit
+1738843710650	Rename type 'ReverseNumber'
+1738843762057	Move compilation unit
+1738843805691	Rename type 'PrintNumWithoutUsingLoopExample'
+1738844058060	Rename type 'FibonacciSeriesExample'
+1738844106483	Rename type 'FibonacciSeries'
+1738844111966	Move compilation unit
+1738844223637	Rename type 'FibonacciSeriesWithArray'
+1738844456534	Rename type 'SortArray'
+1738844539078	Move compilation unit
+1738844990537	Rename type 'FindLargestNumberInArray'
+1738845006064	Rename type 'SecondLargestElementOfArray'
+1738845009113	Move compilation unit
+1738845246436	Rename type 'FindTwoValueOfSum'
+1738845386713	Move compilation unit
+1738845765076	Rename type 'LongestConsecutiveOccurenceExample'
+1738847169557	Move compilation unit
+1738847179751	Rename type 'MissingNumberInArrayExample'
+1738847256146	Move compilation unit
+1738847339987	Rename compilation unit 'FirstAndLastPositionExample.java'
+1738857361295	Move compilation unit
+1738857383760	Rename type 'ShiftAllZerosRightExample'
+1738857456290	Move compilation unit
+1738857463016	Move compilation unit
+1738857481877	Move compilation unit
+1738857491088	Move compilation unit
+1738857519533	Move compilation unit
+1738857526749	Move compilation unit
+1738857535213	Move compilation unit
+1738857560509	Move compilation unit
+1738858769748	Rename compilation unit 'P09_ShiftAllZerosRightExample.java'
+1738859036095	Rename type 'P06_LongestConsecutiveOccurenceExample'
+1738859057791	Rename type 'P07_MissingNumberInArrayExample'
+1738859075630	Rename compilation unit 'RemoveDuplicateElementsExample.java'
+1738859093183	Rename type 'P08_PrintNumWithoutUsingLoopExample'
+1738859443221	Rename compilation unit 'RemoveDuplicateElements.java'
+1738902951442	Rename type 'CountCharacter'
+1738903265169	Rename type 'CompareTwoStrings'
+1738903754015	Rename type 'SortStringAlphabetically'
+1738903759306	Delete element
+1738903828316	Rename type 'AllUniqueCharacterString'

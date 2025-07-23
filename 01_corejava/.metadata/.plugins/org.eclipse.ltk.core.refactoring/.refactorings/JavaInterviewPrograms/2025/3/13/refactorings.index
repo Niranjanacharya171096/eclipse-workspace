@@ -1,0 +1,35 @@
+1742882534576	Rename type 'P05_CharacterCounter'
+1742882607424	Rename type 'P04_CharacterCounter'
+1742882803294	Rename type 'P04_AllUniqueCharacterString'
+1742892638373	Delete element
+1742895357230	Delete element
+1742896637792	Delete element
+1742898487756	Rename type 'P10_CountCapitalizedWordsInString'
+1742973076169	Delete element
+1742975294104	Copy compilation unit
+1742975323924	Rename type 'RemoveSpecificDuplicate'
+1742977261441	Rename type 'VowelCounter'
+1742978459906	Rename type 'RemoveSpecificDuplicateChar'
+1742980522266	Rename type 'RemoveCharacterAtIndex'
+1742981173373	Rename type 'NumberExtractor'
+1742983814845	Rename type 'DuplicateWordCounter'
+1742984458875	Rename type 'PrintEvenWords'
+1742984509034	Rename type 'P13_PrintEvenWords'
+1742984522247	Rename type 'RemoveSpecificDuplicateWord'
+1742985674714	Rename type 'P14_PrintEvenWords'
+1742985709373	Rename type 'RemoveDuplicates'
+1742985724358	Rename type 'InsertNewString'
+1742985739562	Rename type 'RemoveDuplicateChars'
+1742986533602	Rename type 'RemoveDuplicatesUsingBooleanFlag'
+1742989258642	Copy compilation unit
+1742989274176	Rename type 'DuplicateWordCounter'
+1742991738827	Rename type 'Main'
+1742995378188	Rename type 'ArrayListToLinkedList'
+1742995406082	Rename type 'ElementIsPresent'
+1742995424228	Rename type 'ReverseArrayList'
+1742995460533	Rename type 'FirstNonRepeatingCharacterinString'
+1742995472354	Rename type 'HighLowListValues'
+1742995491405	Rename type 'CountCharacters'
+1742995508810	Rename type 'CountWords'
+1742995816810	Rename type 'p03_ReverseArrayList'
+1743094973589	Rename type 'P07_NumberExtractor'
