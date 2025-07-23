@@ -1,0 +1,46 @@
+package cookiesHeaders;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
+import io.restassured.response.Response;
+
+public class GetHeaders{
+  @Test 
+  void testHeaders() {
+    given()
+    .when()
+      .get("https://www.google.com/")
+    .then() 
+      .header("Content-Type", "text/html; charset=ISO-8859-1")
+      .header("Content-Encoding", "gzip")
+      .header("Server", "gws")
+      .log().all();
+  }
+  
+  @Test
+  void getHeadersDetails(){
+    
+    //Response res = 
+    String contentType=
+        given()
+    .when()
+      .get("https://www.google.com/")
+      .then()
+      .extract().cookie("Content-Type")
+      ;
+    
+//get Single Header
+//    String contentType = res.getHeader("Content-Type");
+    System.out.println("Content-Type :: " + contentType);
+//get All Headers
+//     Headers headersDetails = res.getHeaders();
+//    
+//    for (Header key : headersDetails) {
+//      System.out.println(key.getName()+" :: "+key.getValue());
+//    }
+  }
+}

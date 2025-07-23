@@ -1,0 +1,10 @@
+[DEBUG] 2024-03-24 09:37:20.350 [main] UserTests2 - debugging...........
+[INFO ] 2024-03-24 09:37:20.549 [main] UserTests2 - *********Creating User***********
+[INFO ] 2024-03-24 09:37:28.447 [main] UserTests2 - *********Created User***********
+[INFO ] 2024-03-24 09:37:28.469 [main] UserTests2 - *********Reading User***********
+[INFO ] 2024-03-24 09:37:30.273 [main] UserTests2 - *********Displayed User***********
+[INFO ] 2024-03-24 09:37:30.278 [main] UserTests2 - *********Updating User***********
+[INFO ] 2024-03-24 09:37:31.788 [main] UserTests2 - *********Updated User***********
+[INFO ] 2024-03-24 09:37:33.454 [main] UserTests2 - *********Checked Updated User***********
+[INFO ] 2024-03-24 09:37:33.456 [main] UserTests2 - *********Deleting User***********
+[INFO ] 2024-03-24 09:37:35.023 [main] UserTests2 - *********Deleted User***********
