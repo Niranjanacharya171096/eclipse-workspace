@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#crsform").hide();
+        $("#stdform").hide();
+          $("#hide").click(function(){
+            $("#ex").hide();
+          });
+        $("#show").click(function(){
+            $("#ex").show();
+        });
+      });
+      
+      $(document).ready(function(){
+        $("#stdf").click(function(){
+          $("#crsform").hide();
+            $("#stdform").show();
+        });
+        $("#crsf").click(function(){
+          $("#stdform").hide();
+          $("#crsform").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <p id="ex">If you click on the "Hide" and "show" button, I will disappear and appear.</p>
+    
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <br>
+    <br>
+    <a href="./studentreg.html" id="" style="border-style: dotted; color:green">StudentReg</a>
+    <a href="./coursereg.html" id="" style="border-style: dotted; color:blue">CourseReg</a>
+  <br>
+  <br>
+  <button id="stdf">STUDENT</button>
+  <button id="crsf">COURSE</button>
+    
+    <div id="stdform"> 
+      <h1><u>Student Registration Form</u></h1>
+      <form action="./stdreg" method="post">
+        <table border="1" bgcolor="red"> 
+          <tr> <th>Id: </th> <td><input type="text" name="id"/></td> </tr> 
+          <tr> <th>Name: </th> <td><input type="text" name="name"/></td> </tr> 
+          <tr> <th>Email: </th> <td><input type="text" name="email"/></td> </tr> 
+          <tr> <td align="center"><input type="submit" value="Register"/></td> </tr> 
+        </table> 
+      </form>
+    </div>
+    
+    <div id="crsform"> 
+      <h1><u>Course Registration Form</u></h1>
+      <form action="./crsreg" method="post">
+        <table border="1" bgcolor="blue"> 
+          <tr> <th>CId: </th> <td><input type="text" name="cid"/></td> </tr> 
+          <tr> <th>CName: </th> <td><input type="text" name="cname"/></td> </tr> 
+          <tr> <th>Fee: </th> <td><input type="text" name="fee"/></td> </tr> 
+          <tr> <td align="center"><input type="submit" value="Register"/></td> </tr> 
+        </table> 
+      </form>
+    </div>
+  </body>
+</html>

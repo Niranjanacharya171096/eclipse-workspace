@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>chapter12.1_Cookies1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>setc</servlet-name>
+    <servlet-class>controller.SetCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>setc</servlet-name>
+    <url-pattern>/setcookies</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>showc</servlet-name>
+    <servlet-class>controller.ShowCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showc</servlet-name>
+    <url-pattern>/showcookies</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,30 @@
+<taglib> 
+	<shortname>jdbctld</shortname> 
+	<tag> 
+		<name>show</name> 
+		<tagclass>controller.JdbcTag</tagclass> 
+		<bodycontent>empty</bodycontent> 
+		<attribute> 
+			<name>username</name> 
+			<required>true</required> 
+			<rtexprvalue>false</rtexprvalue> 
+		</attribute> 
+		<attribute> 
+			<name>password</name> 
+			<required>true</required> 
+			<rtexprvalue>false</rtexprvalue> 
+		</attribute> 
+		<attribute> 
+	    	<name>db</name> 
+			<required>true</required> 
+			<rtexprvalue>false</rtexprvalue> 
+		</attribute> 
+		<attribute> 
+			<name>table</name> 
+			<required>true</required> 
+			<rtexprvalue>false</rtexprvalue> 
+		</attribute> 
+   </tag> 
+</taglib> 
+
+

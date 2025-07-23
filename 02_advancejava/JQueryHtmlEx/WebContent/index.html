@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $("#crsform").hide();
+			  $("#stdform").hide();
+			  $("#hide").click(function(){
+			    $("#ex").hide();
+			  });
+			  $("#show").click(function(){
+			    $("#ex").show();
+			  });
+			});
+			
+			$(document).ready(function(){
+			  $("#stdf").click(function(){
+			    $("#crsform").hide();
+			    $("#stdform").show();
+			  });
+			  $("#crsf").click(function(){
+				    $("#stdform").hide();
+				    $("#crsform").show();
+			  });
+			});
+		</script>
+	</head>
+	
+	<body>
+	
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+		<p id="ex">If you click on the "Hide" and show button, I will disappear.</p>
+		
+		<button id="stdf">STUDENT</button>
+		<button id="crsf">COURSE</button>
+		
+		<div id="stdform"> 
+			<h1><u>Student Registration Form</u></h1>
+			<form action="./stdreg" method="post">
+				<pre>
+				Id: <input type="text" name="id"/>
+				Name: <input type="text" name="name"/>
+				Email: <input type="text" name="email"/>
+					 <input type="submit" value="Register"/>
+				</pre>
+			</form>
+		</div>
+		<div id="crsform"> 
+			<h1><u>Course Registration Form</u></h1>
+			
+			<form action="./crsreg" method="post">
+				<pre>
+					CId: <input type="text" name="cid"/>
+					CName: <input type="text" name="cname"/>
+					Fee: <input type="text" name="fee"/>
+						 <input type="submit" value="Register"/>
+				</pre>
+			</form>
+		</div>
+	
+	</body>
+</html>

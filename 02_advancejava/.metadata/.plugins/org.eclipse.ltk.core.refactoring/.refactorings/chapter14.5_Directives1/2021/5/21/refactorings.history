@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Exception.jsp&apos; to &apos;Exception.jsp&apos;&#x0D;&#x0A;- Original project: &apos;chapter14.5_Directives&apos;&#x0D;&#x0A;- Destination element: &apos;Exception.jsp&apos;&#x0D;&#x0A;- Original element: &apos;Exception.jsp&apos;" description="Copy file" element1="WebContent/Exception.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1621172299387" target="/chapter14.5_Directives/WebContent/Exception.jsp" units="0" version="1.0"/>
+</session>

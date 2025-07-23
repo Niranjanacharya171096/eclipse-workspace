@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<display-name>chapter8.7_ServletConfig</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<servlet> 
+		<servlet-name>fs</servlet-name> 
+		<servlet-class>controller.Servlet1</servlet-class> 
+		<init-param> 
+			<param-name>v1</param-name> 
+			<param-value>10</param-value> 
+		</init-param> 
+		<init-param> 
+			<param-name>v2</param-name> 
+			<param-value>20</param-value> 
+		</init-param> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>fs</servlet-name> 
+		<url-pattern>/firstser</url-pattern> 
+	</servlet-mapping> 
+	<servlet> 
+		<servlet-name>ss</servlet-name> 
+		<servlet-class>controller.Servlet2</servlet-class> 
+		<init-param> 
+			<param-name>v3</param-name> 
+			<param-value>30</param-value> 
+		</init-param> 
+		<init-param> 
+			<param-name>v4</param-name> 
+			<param-value>40</param-value> 
+		</init-param> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>ss</servlet-name> 
+		<url-pattern>/secondser</url-pattern> 
+	</servlet-mapping> 
+</web-app> 
+</element>

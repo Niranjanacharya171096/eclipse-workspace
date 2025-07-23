@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="chapter08.10_HttpServletAbstractClass2" name="chapter08.10_HttpServletAbstractClass2" path="E:/Software Files/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/chapter08.10_HttpServletAbstractClass2" type="j2ee"/>
+</server>

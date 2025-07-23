@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Project3_HotelManagement/web.xml&apos; to &apos;build.xml&apos;" description="Rename resource &apos;web.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="web.xml" name="build.xml" stamp="1624718741648" updateReferences="true"/>
+</session>

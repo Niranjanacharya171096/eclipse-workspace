@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head> 
+  <body>
+    <p id="s">SUCCESS</p>
+    <p id="f">FAILED</p>
+    <form action="./reg" id="myform" method="GET">
+      Id: <input type="text" name="ids" id="ids"/>
+      Name: <input type="text" name="name" id="name"/>
+      Email: <input type="text" name="email" id="email"/>
+         <input type="submit" value="Register" id="register"/>
+    </form>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        alert("on load ready");
+        
+        $('#s').hide();
+        $('#f').hide();
+        
+        $('#register').click(function(event){
+          alert("on click");
+            
+          var ids=$('#ids').val();
+          var name=$('#name').val();
+          var email=$('#email').val();
+          
+          $.ajax({
+            type:'GET',
+            url:'reg',
+            data:"id=" + ids + " name=" + name + " email=" + email +"\n",
+            
+            success:function(scc){
+            $("#s").show();
+              alert("Registered");
+              toaster.success("Suceessfully");
+              /*return false;*/
+            },
+            error:function(err){
+              $("#f").show();
+              alert("Not Registered");
+              toaster.success("not Suceessfully");
+            }
+          });
+        });
+      });
+    </script> 
+  </body>
+</html>

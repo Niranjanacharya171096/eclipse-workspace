@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>chapter10.1_RequestDispatcherForwardInclude</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+	<servlet> 
+		<servlet-name>rcv</servlet-name> 
+		<servlet-class>controller.RecvServ</servlet-class> 
+	</servlet> 
+	<servlet> 
+		<servlet-name>dsp</servlet-name> 
+		<servlet-class>controller.DispServ</servlet-class>
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>rcv</servlet-name> 
+		<url-pattern>/receive</url-pattern> 
+	</servlet-mapping> 
+	<servlet-mapping> 
+		<servlet-name>dsp</servlet-name> 
+		<url-pattern>/display</url-pattern> 
+	</servlet-mapping> 
+</web-app>
