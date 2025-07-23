@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_311"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring libraries 4.3.9"/>
+	<classpathentry kind="lib" path="E:/spring framework jar/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/spring framework jar/spring-framework-4.3.9.RELEASE/libs/spring-aop-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/spring framework jar/javax-inject.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

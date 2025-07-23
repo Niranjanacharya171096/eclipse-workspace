@@ -1,0 +1,17 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- 
+either separate xml or in the single xml 
+this engine value in single xml cannot be used in other vehicle classes 
+but if we separate engine xml using ref, then we can use engine values in any vehicle classes
+-->
+	<bean id="c" class="beans.Car">
+		<property name="carName" value="Ferrari"/> 
+		<property name="engine">
+			<bean class="beans.Engine">
+				<property name="modelYear" value="2018"/> 
+			</bean>
+		</property> 
+	</bean>
+</beans>

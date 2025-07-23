@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;I18N_ex_nagoor/src/resources/abc_fr_FR.properties&apos; to &apos;abc_zh_CN.properties&apos;" description="Rename resource &apos;abc_fr_FR.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/resources/abc_fr_FR.properties" name="abc_zh_CN.properties" stamp="1638451571905" updateReferences="true"/>
+</session>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="02.02_MVC_usingSimpleUrlHandlerMapping">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                        
+        
+        <property name="java-output-path" value="/02.02_MVC_usingSimpleUrlHandlerMapping/build/classes"/>
+        <property name="context-root" value="02.02_MVC_usingSimpleUrlHandlerMapping"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

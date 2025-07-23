@@ -1,0 +1,36 @@
+<!-- <beans  -->
+<!-- 	xmlns="http://www.springframework.org/schema/beans"  -->
+<!-- 	xmlns:context="http://www.springframework.org/schema/context"  -->
+<!-- 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  -->
+<!-- 	xsi:schemaLocation="http://www.springframework.org/schema/beans  -->
+<!-- 		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd   -->
+<!-- 		http://www.springframework.org/schema/context  -->
+<!-- 		http://www.springframework.org/schema/context/spring-context-2.5.xsd"> -->
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!-- for CarInterface -->
+	<bean id="c" class="beans.CarInterface">
+		<lookup-method name="myCarEngine" bean="e1"/>
+	</bean>
+		<bean id="e1" class="beans.Engine">
+		<property name="engine" value="FerrariEngine" />
+	</bean>
+	
+	<!-- for Bus abstract class -->
+	<bean id="b" class="beans.Bus">
+		<lookup-method name="myBusEngine" bean="e2"/>
+	</bean>
+		<bean id="e2" class="beans.Engine">
+		<property name="engine" value="TATAEngine" />
+	</bean>
+	
+	<!-- for Auto concrete class -->
+	<bean id="a" class="beans.Auto">
+		<lookup-method name="myAutoEngine" bean="e3"/>
+	</bean>
+		<bean id="e3" class="beans.Engine">
+		<property name="engine" value="BajajEngine" />
+	</bean>
+</beans>

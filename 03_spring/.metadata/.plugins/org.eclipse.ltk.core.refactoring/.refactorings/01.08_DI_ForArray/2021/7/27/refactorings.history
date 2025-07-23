@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;01.16_DI_using_pnamesapce_cnamespace/src/beans&apos;&#x0D;&#x0A;- Original project: &apos;01.08_DI_ForArray&apos;&#x0D;&#x0A;- Destination element: &apos;01.16_DI_using_pnamesapce_cnamespace/src/beans&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     beans.Car.java&#x0D;&#x0A;     beans.Engine.java" description="Copy compilation units" destination="=01.16_DI_using_pnamesapce_cnamespace/src&lt;beans" element1="/src&lt;beans{Car.java" element2="/src&lt;beans{Engine.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1625205840040" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;beans.ConnectionPool&apos; to &apos;JDBCConnectionPool&apos;&#x0D;&#x0A;- Original project: &apos;03.02_DAO_JDBCConnectionPool&apos;&#x0D;&#x0A;- Original element: &apos;beans.ConnectionPool&apos;&#x0D;&#x0A;- Renamed element: &apos;beans.JDBCConnectionPool&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ConnectionPool&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;beans{ConnectionPool.java[ConnectionPool" matchStrategy="1" name="JDBCConnectionPool" qualified="false" references="true" similarDeclarations="true" stamp="1638853295551" textual="false" version="1.0"/>
+</session>

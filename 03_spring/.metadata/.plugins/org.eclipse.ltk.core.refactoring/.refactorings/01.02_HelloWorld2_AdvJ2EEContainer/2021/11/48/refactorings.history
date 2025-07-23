@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;resources&apos; to &apos;01.03_IOCContainersBehavior/src&apos;&#x0D;&#x0A;- Original project: &apos;01.02_HelloWorld2_AdvJ2EEContainer&apos;&#x0D;&#x0A;- Destination element: &apos;01.03_IOCContainersBehavior/src&apos;&#x0D;&#x0A;- Original element: &apos;01.02_HelloWorld2_AdvJ2EEContainer/src/resources&apos;" description="Copy package" destination="=01.03_IOCContainersBehavior/src" element1="/src&lt;resources" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1637914140111" version="1.0"/>
+</session>

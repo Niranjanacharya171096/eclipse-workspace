@@ -1,0 +1,23 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- In byName, bean id same as Dependency class parameter name -->	
+	<bean id="engine" class="beans.Engine">
+		<property name="modelYear" value="2000"/>
+	</bean>
+<!-- duplicated id not allowed, parser will throws exception -->
+	<bean id="engine1" class="beans.Engine">
+		<property name="modelYear" value="2001"/>
+	</bean>
+	<bean id="c" class="beans.Car" autowire="byName">
+		<property name="carName" value="Ferrari"/>
+<!-- not required  when auto-wiring DI -->
+<!-- <property name="engine" ref="e"/> -->
+	</bean>
+
+<!-- using p namespace schema -->
+<!-- 
+	<bean id="c" class="beans.Car" p:carName="Ferrari" autowire="byName"/>
+	<bean id="engine" class="beans.Engine" p:modelYear="2001"/>
+ -->	
+</beans>

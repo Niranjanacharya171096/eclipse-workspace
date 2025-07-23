@@ -1,0 +1,8 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="beans.IOC_Start_EventListeners"/>
+	<bean class="beans.IOC_Stop_EventListeners"/>
+	<bean class="beans.IOC_Refresh_EventListeners"/>
+	<bean class="beans.IOC_Close_EventListeners"/>
+</beans>

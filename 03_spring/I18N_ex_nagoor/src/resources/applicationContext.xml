@@ -1,0 +1,16 @@
+<beans 
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:util="http://www.springframework.org/schema/util" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+	<bean id="i18nBean" class="beans.I18NBean">
+		<property name="messageSource" ref="resourceBundleMessageSource"/>
+	</bean>
+	<bean id="resourceBundleMessageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="resources/abc"/>
+	</bean>
+</beans>

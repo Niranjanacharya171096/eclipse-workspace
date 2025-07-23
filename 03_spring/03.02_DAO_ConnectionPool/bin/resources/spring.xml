@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="bds" class="org.apache.tomcat.dbcp.dbcp2.BasicDataSource">
+	<property name="DriverClassName" value="com.mysql.cj.jdbc.Driver"/>
+	<property name="Url" value="jdbc:mysql://localhost:3306/studentspringdb"/>
+	<property name="Username" value="root"/>
+	<property name="Password" value="root"/>
+	<property name="MaxIdle" value="15"/>
+	<property name="MinIdle" value="5"/>
+	<property name="MaxWaitMillis" value="50000"/>
+</bean>
+<bean id="dao" class="dao.StudentDAOImpl">
+	<property name="ds" ref="bds"></property>
+</bean>
+<bean id="bo" class="business.StudentBOImpl">
+	<property name="dao" ref="dao"></property>
+</bean>
+</beans>

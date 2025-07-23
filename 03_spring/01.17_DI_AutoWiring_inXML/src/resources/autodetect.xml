@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+ -->
+
+<beans 
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:c="http://www.springframework.org/schema/c" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+<!-- autodetect depricated since spring 3 -->
+<!-- In autodetect, internally uses byType-->	
+<!-- using dtd -->
+<!-- 
+	<bean id="e1" class="beans.Engine" autowire-candidate="false">
+		<property name="modelYear" value="2004"/>
+	</bean>
+	<bean id="e2" class="beans.Engine">
+		<property name="modelYear" value="2001"/>
+	</bean>
+
+	<bean id="b" class="beans.Bike" autowire="autodetect">
+		<property name="bikeName" value="Duke"/>
+ -->		
+<!-- not required  when auto-wiring DI -->
+<!-- <property name="engine" ref="e"/> -->
+<!-- 
+	</bean>
+ -->
+ 
+<!-- using p namespace schema -->
+	<bean id="b" class="beans.Bike" p:bikeName="Duke" autowire="autodetect"/> 
+	<bean id="e3" class="beans.Engine" p:modelYear="2004"/>
+</beans>

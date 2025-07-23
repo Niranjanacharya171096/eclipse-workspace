@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"  -->
+<!-- "https://www.springframework.org/dtd/spring-beans-2.0.dtd"> -->
+<!-- <beans> -->
+<beans 
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:c="http://www.springframework.org/schema/c" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+<!-- activate autowire annotation -->	
+<!-- 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean> -->
+
+<!-- using dtd -->
+<!-- 	<bean id="engine1" class="beans.Engine"> 
+ 		<property name="modelYear" value="2000"/> 
+ 	</bean> -->
+<!-- duplicated id not allowed -->
+<!-- 	<bean id="engine2" class="beans.Engine"> 
+ 		<property name="modelYear" value="2001"/> 
+ 	</bean> -->
+<!-- 	<bean id="c" class="beans.Car"> -->
+<!-- not required  when using annotation DI -->
+<!-- <property name="engine" ref="e"/> -->
+<!-- 	<property name="carName" value="Ferrari"/> 
+ 	</bean> 
+	<bean id="b" class="beans.Bus">
+ 		<property name="busName" value="TATA"/>
+ 	</bean> -->
+
+<!-- activate autowire annotation -->	
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+<!-- using p namespace schema -->
+	<bean id="c" class="beans.Car" p:carName="Ferrari"/>
+	<bean id="engine1" class="beans.Engine" p:modelYear="2001"/>
+	<bean id="b" class="beans.Bus" p:busName="Durgamba"/>
+	<bean id="engine2" class="beans.Engine" p:modelYear="2002"/>
+</beans>

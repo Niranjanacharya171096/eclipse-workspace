@@ -1,0 +1,34 @@
+<beans 
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:c="http://www.springframework.org/schema/c" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+	
+<!-- using byType, there is a chance to get ambiguity -->	
+<!-- using dtd -->
+<!-- 
+	<bean id="e1" class="beans.Engine">
+		<property name="modelYear" value="2000"/>
+	</bean>
+	<bean id="e2" class="beans.Engine" autowire-candidate="false">
+		<property name="modelYear" value="2001"/>
+	</bean>
+
+	<bean id="c" class="beans.Car" autowire="byType">
+		<property name="carName" value="Audi"/>
+-->	
+<!-- not required in auto-wiring DI -->
+<!-- <property name="engine" ref="e"/> -->
+<!-- 
+	</bean>
+ -->
+ <!-- using p namespace schema -->
+	<bean id="c" class="beans.Car" p:carName="Audi" autowire="byType"/> <!-- p:engine-ref="e1" not required -->
+	<bean id="e1" class="beans.Engine" p:modelYear="2001"/>
+	<bean id="e2" class="beans.Engine" p:modelYear="2002" autowire-candidate="false"/>
+</beans>
+

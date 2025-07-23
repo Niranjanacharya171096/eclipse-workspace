@@ -1,0 +1,34 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<!-- depedency-check doesn't work above spring version 3 -->
+
+<!-- no need to call any setter() -->
+<!-- 
+	<bean id="c" class="beans.Car" dependency-check="none">
+	</bean>
+ -->
+ <!-- we must call primitive setter() -->
+<!-- 
+	<bean id="c" class="beans.Car" dependency-check="simple">
+		<property name="carName" value="Audi"/>
+	</bean>
+ -->
+<!-- we must call secondary setter() -->
+<!-- 	
+	<bean id="c" class="beans.Car" dependency-check="objects">
+		<property name="engine" ref="e"/>
+	</bean>
+	<bean id="e" class="beans.Engine" dependency-check="simple">
+		<property name="modelYear" value="2000"/>
+	</bean>
+-->
+<!-- we must call both primitive & secondary setter() -->
+	<bean id="c" class="beans.Car" dependency-check="all">
+		<property name="carName" value="Audi"/>
+		<property name="engine" ref="e"/>
+	</bean>
+	<bean id="e" class="beans.Engine" dependency-check="simple">
+		<property name="modelYear" value="2000"/>
+	</bean>
+</beans>

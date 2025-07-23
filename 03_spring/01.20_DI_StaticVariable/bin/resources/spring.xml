@@ -1,0 +1,28 @@
+<!-- <beans  -->
+<!-- 	xmlns="http://www.springframework.org/schema/beans"  -->
+<!-- 	xmlns:context="http://www.springframework.org/schema/context"  -->
+<!-- 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  -->
+<!-- 	xsi:schemaLocation="http://www.springframework.org/schema/beans  -->
+<!-- 		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd   -->
+<!-- 		http://www.springframework.org/schema/context  -->
+<!-- 		http://www.springframework.org/schema/context/spring-context-2.5.xsd"> -->
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- property tag shouldnt work but it is working  -->
+<!-- 	<bean id="c" class="beans.Car"> -->
+<!-- 		<property name="carname" value="Audi"/> -->
+<!-- 	</bean> -->
+	
+	<!-- static variable DI -->
+	<bean id="c" class="beans.Car"/>
+	<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="staticMethod" value="beans.Car.setCarname"/>
+		<property name="arguments">
+			<list>
+				<value>AUDI</value>
+			</list>
+		</property>
+	</bean>
+</beans>
