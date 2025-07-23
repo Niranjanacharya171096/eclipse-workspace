@@ -1,0 +1,16 @@
+127.0.0.1 - - [15/Aug/2021:10:11:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /MailCasting_Oracle/ HTTP/1.1" 200 3400
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /MailCasting_Oracle/css/5grid/viewport.js HTTP/1.1" 200 906
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /MailCasting_Oracle/css/5grid/core.css HTTP/1.1" 200 5684
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /MailCasting_Oracle/css/style.css HTTP/1.1" 200 16861
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /MailCasting_Oracle/css/images/pic2.jpg HTTP/1.1" 200 2994
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:11:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:12:01 +0530] "POST /MailCasting_Oracle/LoginServlet HTTP/1.1" 500 3397
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:16:28 +0530] "GET /MailCasting_Oracle/Register.jsp HTTP/1.1" 200 3745
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:16:50 +0530] "GET /MailCasting_Oracle/RegisterServlet?email=sayeedkhan%40gmail.com&password=Neeru%4009&name=Sayeed&gender=male&mname=9916044351&country=India HTTP/1.1" 500 3406
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:18:03 +0530] "GET /MailCasting_Oracle/RegisterServlet?email=sayeedkhan%40gmail.com&password=Neeru%4009&name=Sayeed&gender=male&mname=9916044351&country=India HTTP/1.1" 404 682
+127.0.0.1 - - [15/Aug/2021:10:19:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:19:53 +0530] "GET /MailCasting_Oracle/ HTTP/1.1" 200 3400
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:19:56 +0530] "GET /MailCasting_Oracle/Register.jsp HTTP/1.1" 200 3745
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:20:13 +0530] "GET /MailCasting_Oracle/RegisterServlet?email=sayeedkhan%40gmail.com&password=root&name=Sayeed&gender=male&mname=9916044351&country=India HTTP/1.1" 500 1380
+0:0:0:0:0:0:0:1 - - [15/Aug/2021:10:21:29 +0530] "GET /MailCasting_Oracle/RegisterServlet?email=sayeedkhan%40gmail.com&password=root&name=Sayeed&gender=male&mname=9916044351&country=India HTTP/1.1" 200 3824

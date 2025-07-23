@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder"/>
+			<item value="E:\Software Files\eclipse-workspace\04_projects\company_mailer"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\NIRANJAN\Downloads\Projects\mailcasting.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\TransportCompany.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\pharmacy.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\PaymentBillingProject.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\onlinequiz.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\onlinelibrary.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\onlinebanking.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\mailcasting.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\librarymanagementjava.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\feereportproject.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\FeeManagementBootstrap.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\elibraryservlet.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\connectglobe.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\citysearch.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\New folder\babycareservlet.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\japps-project.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\companymailerprojectjavatpoint.zip"/>
+			<item value="C:\Users\NIRANJAN\Downloads\FeeManagementBootstrap.zip"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\NIRANJAN\Downloads\New folder"/>
+			<item value="C:\Users\NIRANJAN\Downloads"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="399"/>
+		<item key="DIALOG_Y_ORIGIN" value="102"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

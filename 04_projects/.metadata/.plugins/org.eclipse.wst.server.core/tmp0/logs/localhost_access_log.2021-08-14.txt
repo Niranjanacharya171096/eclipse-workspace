@@ -1,0 +1,17 @@
+127.0.0.1 - - [14/Aug/2021:17:41:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:22 +0530] "GET /DynamicProject_eLibrary/ HTTP/1.1" 200 2525
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:22 +0530] "GET /DynamicProject_eLibrary/bootstrap.min.css HTTP/1.1" 200 121260
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:22 +0530] "GET /DynamicProject_eLibrary/jquery.min.js HTTP/1.1" 200 95992
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:22 +0530] "GET /DynamicProject_eLibrary/bootstrap.min.js HTTP/1.1" 200 36816
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:23 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:41:34 +0530] "POST /DynamicProject_eLibrary/AdminLogin HTTP/1.1" 200 1846
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:04 +0530] "POST /DynamicProject_eLibrary/AdminLogin HTTP/1.1" 200 1846
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:13 +0530] "POST /DynamicProject_eLibrary/AdminLogin HTTP/1.1" 200 1846
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:44 +0530] "POST /DynamicProject_eLibrary/AdminLogin HTTP/1.1" 200 2427
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:44 +0530] "GET /DynamicProject_eLibrary/images/admin2.jpg HTTP/1.1" 200 5720547
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:44 +0530] "GET /DynamicProject_eLibrary/images/admin1.jpg HTTP/1.1" 200 532240
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:45 +0530] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 795
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:45 +0530] "GET /fonts/glyphicons-halflings-regular.woff HTTP/1.1" 404 794
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:45 +0530] "GET /fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 404 793
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:42:47 +0530] "GET /DynamicProject_eLibrary/AddLibrarianForm HTTP/1.1" 200 2240
+0:0:0:0:0:0:0:1 - - [14/Aug/2021:17:43:28 +0530] "POST /DynamicProject_eLibrary/AddLibrarian HTTP/1.1" 200 2272
