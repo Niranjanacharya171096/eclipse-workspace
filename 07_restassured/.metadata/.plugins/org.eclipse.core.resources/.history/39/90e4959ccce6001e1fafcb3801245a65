@@ -1,9 +1,0 @@
-package authentications;
-
-
-public class Authentications {
-  @Test
-  void testBaicAuthentication() {
-    given().when
-  }
-}

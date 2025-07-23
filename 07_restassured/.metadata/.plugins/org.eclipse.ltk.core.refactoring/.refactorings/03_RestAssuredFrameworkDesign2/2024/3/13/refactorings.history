@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 4 elements from project &apos;03_RestAssuredFrameworkDesign2&apos;&#x0D;&#x0A;- Original project: &apos;03_RestAssuredFrameworkDesign2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Test-Report-2024.03.22.22.34.55.html&#x0D;&#x0A;     Test-Report-2024.03.22.22.58.20.html&#x0D;&#x0A;     Test-Report-2024.03.23.21.44.14.html&#x0D;&#x0A;     Test-Report-2024.03.23.21.45.22.html" description="Delete elements" element1="reports/Test-Report-2024.03.22.22.34.55.html" element2="reports/Test-Report-2024.03.23.21.45.22.html" element3="reports/Test-Report-2024.03.22.22.58.20.html" element4="reports/Test-Report-2024.03.23.21.44.14.html" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1711514369275" subPackages="false" version="1.0"/>
-</session>

@@ -1,2 +1,0 @@
-# 02_RestAssuredFrameworkDesign1
-RestAssuredFrameworkDesign1

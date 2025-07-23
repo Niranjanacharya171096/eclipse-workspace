@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-file:/E:/eclipse-workspace/07_restassured/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index
