@@ -1,6 +1,6 @@
 package strings;
 
-class P23_ReverseFirstBiggestWord {
+class P23_ReverseFirstLongestWord {
   public static void main(String[] args) {
     String str = "Find the longest word and reverse it";
     String result = reverseLongestWord1(str);
