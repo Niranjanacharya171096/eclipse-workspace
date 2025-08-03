@@ -27,6 +27,9 @@ class P23_ReverseFirstLongestWord {
     }
 
     // Rebuild the string with the first occurrence of the longest word reversed
+
+    // String result = str.replace(longestWord, reversed);
+
     String result = "";
     boolean replaced = false;
     for (int i = 0; i < words.length; i++) {
