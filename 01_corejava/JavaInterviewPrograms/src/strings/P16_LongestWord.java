@@ -17,7 +17,7 @@ class P16_LongestWord {
         longestWord = word;
       }
     }
-    System.out.println("Logest Word :: " + longestWord);
+    System.out.println("Longest Word :: " + longestWord);
   }
 
   static void longestEvenOddWords(String[] words) {
@@ -42,7 +42,7 @@ class P16_LongestWord {
         }
       }
     }
-    System.out.println("Logest Even Word :: " + evnWord);
-    System.out.println("Logest Odd Word :: " + oddWord);
+    System.out.println("Longest Even Word :: " + evnWord);
+    System.out.println("Longest Odd Word :: " + oddWord);
   }
 }
